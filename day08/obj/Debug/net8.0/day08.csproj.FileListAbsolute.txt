@@ -1,0 +1,14 @@
+D:\demo\day08\bin\Debug\net8.0\day08.exe
+D:\demo\day08\bin\Debug\net8.0\day08.deps.json
+D:\demo\day08\bin\Debug\net8.0\day08.runtimeconfig.json
+D:\demo\day08\bin\Debug\net8.0\day08.dll
+D:\demo\day08\bin\Debug\net8.0\day08.pdb
+D:\demo\day08\obj\Debug\net8.0\day08.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\day08\obj\Debug\net8.0\day08.AssemblyInfoInputs.cache
+D:\demo\day08\obj\Debug\net8.0\day08.AssemblyInfo.cs
+D:\demo\day08\obj\Debug\net8.0\day08.csproj.CoreCompileInputs.cache
+D:\demo\day08\obj\Debug\net8.0\day08.dll
+D:\demo\day08\obj\Debug\net8.0\refint\day08.dll
+D:\demo\day08\obj\Debug\net8.0\day08.pdb
+D:\demo\day08\obj\Debug\net8.0\day08.genruntimeconfig.cache
+D:\demo\day08\obj\Debug\net8.0\ref\day08.dll
