@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="day01/day01.csproj" />
+  <Project Path="Employee/Employee.csproj" Id="306bd210-e46a-4fc5-a79e-eedfead08c58" />
+</Solution>

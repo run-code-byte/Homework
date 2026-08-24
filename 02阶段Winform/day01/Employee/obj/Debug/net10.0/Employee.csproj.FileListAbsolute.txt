@@ -1,0 +1,15 @@
+D:\demo\Homework\02阶段Winform\day01\Employee\bin\Debug\net10.0\Employee.exe
+D:\demo\Homework\02阶段Winform\day01\Employee\bin\Debug\net10.0\Employee.deps.json
+D:\demo\Homework\02阶段Winform\day01\Employee\bin\Debug\net10.0\Employee.runtimeconfig.json
+D:\demo\Homework\02阶段Winform\day01\Employee\bin\Debug\net10.0\Employee.dll
+D:\demo\Homework\02阶段Winform\day01\Employee\bin\Debug\net10.0\Employee.pdb
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.AssemblyInfoInputs.cache
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.AssemblyInfo.cs
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.csproj.CoreCompileInputs.cache
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.sourcelink.json
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.dll
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\refint\Employee.dll
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.pdb
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\Employee.genruntimeconfig.cache
+D:\demo\Homework\02阶段Winform\day01\Employee\obj\Debug\net10.0\ref\Employee.dll

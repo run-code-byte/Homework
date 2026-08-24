@@ -1,0 +1,20 @@
+[
+  {
+    "EmpId": 1,
+    "EmpName": "1",
+    "Department": "1",
+    "Salary": 5000
+  },
+  {
+    "EmpId": 2,
+    "EmpName": "2",
+    "Department": "2",
+    "Salary": 20000
+  },
+  {
+    "EmpId": 3,
+    "EmpName": "3",
+    "Department": "3",
+    "Salary": 30000
+  }
+]
