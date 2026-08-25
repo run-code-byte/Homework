@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day02\\day02\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|solutionrelative:day02\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C2CA4F-90FA-3A6F-EF28-3707C2BCD472}|day02\\day02.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day02\\day02\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C2CA4F-90FA-3A6F-EF28-3707C2BCD472}|day02\\day02.csproj|solutionrelative:day02\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day02\\day02\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|solutionrelative:day02\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day02\\day02\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|solutionrelative:day02\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day02\\day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609D9E2E-581A-45E8-9F73-E1B462699922}|day02\\day02.csproj|solutionrelative:day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06C2CA4F-90FA-3A6F-EF28-3707C2BCD472}|day02\\day02.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day02\\day02\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C2CA4F-90FA-3A6F-EF28-3707C2BCD472}|day02\\day02.csproj|solutionrelative:day02\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C2CA4F-90FA-3A6F-EF28-3707C2BCD472}|day02\\day02.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day02\\day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C2CA4F-90FA-3A6F-EF28-3707C2BCD472}|day02\\day02.csproj|solutionrelative:day02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "day02\\Form2.Designer.cs",
-              "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.Designer.cs*",
-              "RelativeToolTip": "day02\\Form2.Designer.cs*",
+              "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.Designer.cs",
+              "RelativeToolTip": "day02\\Form2.Designer.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwC0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T12:47:15.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.cs",
-              "RelativeDocumentMoniker": "day02\\Form2.cs",
-              "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.cs [\u8BBE\u8BA1]*",
-              "RelativeToolTip": "day02\\Form2.cs [\u8BBE\u8BA1]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T12:43:08.09Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-08-25T12:47:15.886Z"
             },
             {
               "$type": "Document",
@@ -59,12 +46,23 @@
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.cs",
               "RelativeDocumentMoniker": "day02\\Form2.cs",
-              "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.cs*",
-              "RelativeToolTip": "day02\\Form2.cs*",
+              "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.cs",
+              "RelativeToolTip": "day02\\Form2.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAgwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-25T12:42:59.424Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.cs",
+              "RelativeDocumentMoniker": "day02\\Form2.cs",
+              "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day02\\day02\\Form2.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "day02\\Form2.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T12:43:08.09Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "day02\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T12:42:00.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T12:42:00.021Z"
             }
           ]
         }
