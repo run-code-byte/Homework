@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1309FB7E-4578-4B02-8378-D4489525D08C}|day04\\day04.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day04\\day04\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1309FB7E-4578-4B02-8378-D4489525D08C}|day04\\day04.csproj|solutionrelative:day04\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE5B2CE-0640-8B33-D374-3BBE444A5DD8}|day04\\day04.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day04\\day04\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE5B2CE-0640-8B33-D374-3BBE444A5DD8}|day04\\day04.csproj|solutionrelative:day04\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1309FB7E-4578-4B02-8378-D4489525D08C}|day04\\day04.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day04\\day04\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ECE5B2CE-0640-8B33-D374-3BBE444A5DD8}|day04\\day04.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day04\\day04\\form5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE5B2CE-0640-8B33-D374-3BBE444A5DD8}|day04\\day04.csproj|solutionrelative:day04\\form5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1309FB7E-4578-4B02-8378-D4489525D08C}|day04\\day04.csproj|D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\day04\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1309FB7E-4578-4B02-8378-D4489525D08C}|day04\\day04.csproj|solutionrelative:day04\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1309FB7E-4578-4B02-8378-D4489525D08C}|day04\\day04.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day04\\day04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1309FB7E-4578-4B02-8378-D4489525D08C}|day04\\day04.csproj|solutionrelative:day04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE5B2CE-0640-8B33-D374-3BBE444A5DD8}|day04\\day04.csproj|d:\\demo\\homework\\02\u9636\u6BB5winform\\day04\\day04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE5B2CE-0640-8B33-D374-3BBE444A5DD8}|day04\\day04.csproj|solutionrelative:day04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form5.Designer.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\day04\\Form5.Designer.cs",
+              "RelativeDocumentMoniker": "day04\\Form5.Designer.cs",
+              "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\day04\\Form5.Designer.cs",
+              "RelativeToolTip": "day04\\Form5.Designer.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAADwvw0BAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T04:39:56.256Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,26 +49,25 @@
               "RelativeDocumentMoniker": "day04\\Form5.cs",
               "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\day04\\Form5.cs",
               "RelativeToolTip": "day04\\Form5.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAxwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-27T13:12:49.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form5.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\day04\\Form5.cs",
               "RelativeDocumentMoniker": "day04\\Form5.cs",
               "ToolTip": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\day04\\Form5.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "day04\\Form5.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T13:12:33.461Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-08-27T13:12:33.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\demo\\Homework\\02\u9636\u6BB5Winform\\day04\\day04\\Program.cs",
               "RelativeDocumentMoniker": "day04\\Program.cs",
@@ -59,8 +75,7 @@
               "RelativeToolTip": "day04\\Program.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-27T11:09:30.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-27T11:09:30.734Z"
             }
           ]
         }
