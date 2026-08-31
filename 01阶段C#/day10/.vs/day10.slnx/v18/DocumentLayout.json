@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\demo\\Homework\\01\u9636\u6BB5C#\\day10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7BA45B-7E29-7DA6-D775-71BB00021BF4}|day10\\day10.csproj|d:\\demo\\homework\\01\u9636\u6BB5c#\\day10\\day10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED7BA45B-7E29-7DA6-D775-71BB00021BF4}|day10\\day10.csproj|solutionrelative:day10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\01\u9636\u6BB5C#\\day10\\day10\\Program.cs",
+              "RelativeDocumentMoniker": "day10\\Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\01\u9636\u6BB5C#\\day10\\day10\\Program.cs",
+              "RelativeToolTip": "day10\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwFAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T09:12:38.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
