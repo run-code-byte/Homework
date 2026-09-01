@@ -1,0 +1,33 @@
+-- insert into user(username,password,age) value('李四','123456','18');
+-- insert into user(username,password,age,gender,create_at) value('王五','123456','18','女','2026-10-1 10:10:10');
+-- insert into user(username,password,age,gender,create_at) values("赵六","123123",13,"男",'2023-10-15 14:35:00'),("田七","123789",14,"女",'2023-10-15 14:35:00');
+
+-- delete from user where username="李四";
+
+-- update user set password="22222",age=33,gender="女" where username='王五';
+
+-- select * from user where age>16;
+
+-- select * from user where age!=12;
+
+-- select * from user where id in(1,2,4);
+
+-- select * from user where id between 1 and 4;
+
+-- select * from user where username like '%1%';
+
+-- select sum(age) as sum from user;
+
+-- select max(age) as maxid from user;
+
+-- select avg(age) from user;
+
+-- select count(*) as count from user where age=12 or username='%四%';
+
+-- select * from user order by age desc;
+
+-- select * from user limit 0,3;
+-- select * from user limit 3,3;
+-- select * from user limit 6,3;
+
+select count(*) as count,banji from user group by banji;
