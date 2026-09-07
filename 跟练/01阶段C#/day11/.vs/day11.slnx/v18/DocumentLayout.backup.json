@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\demo\\Homework\\01\u9636\u6BB5C#\\day11\\",
+  "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5A90AF5-A5CA-4082-9AC9-F270E2BE97ED}|day11\\day11.csproj|d:\\demo\\homework\\01\u9636\u6BB5c#\\day11\\day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5A90AF5-A5CA-4082-9AC9-F270E2BE97ED}|day11\\day11.csproj|solutionrelative:day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FACB785C-E8EF-41A4-B2FF-C7C029E44BE7}|day10HW\\day10HW.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day11\\day10hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FACB785C-E8EF-41A4-B2FF-C7C029E44BE7}|day10HW\\day10HW.csproj|solutionrelative:day10hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day11\\day10HW\\bin\\Debug\\net10.0\\user.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:day10HW\\bin\\Debug\\net10.0\\user.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "user.json",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day11\\day10HW\\bin\\Debug\\net10.0\\user.json",
+              "RelativeDocumentMoniker": "day10HW\\bin\\Debug\\net10.0\\user.json",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day11\\day10HW\\bin\\Debug\\net10.0\\user.json",
+              "RelativeToolTip": "day10HW\\bin\\Debug\\net10.0\\user.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-06T13:28:52.036Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01\u9636\u6BB5C#\\day11\\day11\\Program.cs",
-              "RelativeDocumentMoniker": "day11\\Program.cs",
-              "ToolTip": "D:\\demo\\Homework\\01\u9636\u6BB5C#\\day11\\day11\\Program.cs",
-              "RelativeToolTip": "day11\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day11\\day10HW\\Program.cs",
+              "RelativeDocumentMoniker": "day10HW\\Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day11\\day10HW\\Program.cs",
+              "RelativeToolTip": "day10HW\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwGcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T12:19:23.432Z",
+              "WhenOpened": "2026-09-06T08:14:52.32Z",
               "EditorCaption": ""
             }
           ]

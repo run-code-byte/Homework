@@ -1,0 +1,15 @@
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\bin\Debug\net10.0\day10HW.exe
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\bin\Debug\net10.0\day10HW.deps.json
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\bin\Debug\net10.0\day10HW.runtimeconfig.json
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\bin\Debug\net10.0\day10HW.dll
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\bin\Debug\net10.0\day10HW.pdb
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.AssemblyInfo.cs
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.sourcelink.json
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.dll
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\refint\day10HW.dll
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.pdb
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\day10HW.genruntimeconfig.cache
+D:\demo\Homework\跟练\01阶段C#\day11\day10HW\obj\Debug\net10.0\ref\day10HW.dll

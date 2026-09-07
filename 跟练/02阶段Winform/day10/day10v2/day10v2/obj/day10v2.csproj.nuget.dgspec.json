@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\Homework\\02阶段Winform\\day10v2\\day10v2\\day10v2.csproj": {}
+    "D:\\demo\\Homework\\跟练\\02阶段Winform\\day10\\day10v2\\day10v2\\day10v2.csproj": {}
   },
   "projects": {
-    "D:\\demo\\Homework\\02阶段Winform\\day10v2\\day10v2\\day10v2.csproj": {
+    "D:\\demo\\Homework\\跟练\\02阶段Winform\\day10\\day10v2\\day10v2\\day10v2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\Homework\\02阶段Winform\\day10v2\\day10v2\\day10v2.csproj",
+        "projectUniqueName": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day10\\day10v2\\day10v2\\day10v2.csproj",
         "projectName": "day10v2",
-        "projectPath": "D:\\demo\\Homework\\02阶段Winform\\day10v2\\day10v2\\day10v2.csproj",
+        "projectPath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day10\\day10v2\\day10v2\\day10v2.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\Homework\\02阶段Winform\\day10v2\\day10v2\\obj\\",
+        "outputPath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day10\\day10v2\\day10v2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

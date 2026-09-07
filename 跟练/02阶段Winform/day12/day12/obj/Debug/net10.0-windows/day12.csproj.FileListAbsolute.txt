@@ -1,0 +1,17 @@
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\bin\Debug\net10.0-windows\day12.exe
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\bin\Debug\net10.0-windows\day12.deps.json
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\bin\Debug\net10.0-windows\day12.runtimeconfig.json
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\bin\Debug\net10.0-windows\day12.dll
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\bin\Debug\net10.0-windows\day12.pdb
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.Form1.resources
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.csproj.GenerateResource.cache
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.AssemblyInfo.cs
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.sourcelink.json
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.dll
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\refint\day12.dll
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.pdb
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\day12.genruntimeconfig.cache
+D:\demo\Homework\跟练\02阶段Winform\day12\day12\obj\Debug\net10.0-windows\ref\day12.dll

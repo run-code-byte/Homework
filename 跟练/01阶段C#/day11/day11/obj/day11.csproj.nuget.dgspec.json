@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\Homework\\01阶段C#\\day11\\day11\\day11.csproj": {}
+    "D:\\demo\\Homework\\跟练\\01阶段C#\\day11\\day11\\day11.csproj": {}
   },
   "projects": {
-    "D:\\demo\\Homework\\01阶段C#\\day11\\day11\\day11.csproj": {
+    "D:\\demo\\Homework\\跟练\\01阶段C#\\day11\\day11\\day11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\Homework\\01阶段C#\\day11\\day11\\day11.csproj",
+        "projectUniqueName": "D:\\demo\\Homework\\跟练\\01阶段C#\\day11\\day11\\day11.csproj",
         "projectName": "day11",
-        "projectPath": "D:\\demo\\Homework\\01阶段C#\\day11\\day11\\day11.csproj",
+        "projectPath": "D:\\demo\\Homework\\跟练\\01阶段C#\\day11\\day11\\day11.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\Homework\\01阶段C#\\day11\\day11\\obj\\",
+        "outputPath": "D:\\demo\\Homework\\跟练\\01阶段C#\\day11\\day11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

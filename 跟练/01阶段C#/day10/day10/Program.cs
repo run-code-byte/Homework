@@ -9,145 +9,318 @@ namespace day10
     {
         static void Main(string[] args)
         {
-            #region 作业1
-            //作业: 使用读写文件配合命令行窗口 模拟实现注册功能
+            #region IO操作
+            //var path = @"D:\demo\Homework\跟练\01阶段C#\day10\day10\test.log";
+            //var path = "./test.log";
+            //var res=File.ReadAllText(path);
+            //Console.WriteLine(res);
 
-            //要求输入用户名和密码,完成注册; (注册的用户信息记录在user.txt文件中, 一行一个用户信息 数据之间通过 === 分隔)
-            //Action WriteLine = () =>
+            //Console.ReadLine();
+
+            //var path = "./test.log";
+            //var path = "./day10.log";
+            //File.WriteAllText(path, "hello");
+
+            //var path = "./day10.log";
+            //File.AppendAllText(path, "eeeee \n");
+
+            //var path = "./day1.log";
+            //bool res=File.Exists(path);
+            //Console.WriteLine(res);
+
+            //File.Copy("./day10.log", "./day1.log");
+
+            //var path = "./day10.log";
+            //File.Delete(path);
+
+            //var path = "./day1.log";
+            //File.Move(path, "./day11.log");
+
+            //Action writeLog = () =>
             //{
-            //    Console.WriteLine("请输入用户名：");
-            //    var username= Console.ReadLine();
-            //    Console.WriteLine("请输入密码：");
-            //    var password = Console.ReadLine();
-            //    var str = username + "===" + password +"\n";
-
-            //    File.AppendAllText("user.txt", str);
-            //    Console.WriteLine("注册成功");
+            //    Console.WriteLine("输入模拟的操作");
+            //    string opt = Console.ReadLine();
+            //    var date = DateTime.Now;
+            //    File.AppendAllText("./content.log", $"{opt}--{date} \n");
             //};
-            //WriteLine();
+
+            //writeLog();
             #endregion
 
-            /*
-             使用读写文件配合命令行窗口模拟实现注册登录功能
-                进入就是菜单栏界面，1注册，2登录，0退出
+            #region 目录操作
+            //bool isExists = Directory.Exists("./data");
+            //Console.WriteLine(isExists);
 
-                输入1进入注册，要求输入用户名，密码，用户输入用户名和密码则实  现注册功能，要求校验用户名和密码
-                输入2进入登录，要求输入用户名，密码，输入后完成登录校验功能；              登录成功提示登录成功
-                输入0退出程序，
-                -用户注册成功的用户信息以文件的形式存储在userjson中（要求以json形式存储）
+            //Directory.CreateDirectory("./data");
+            //Directory.CreateDirectory("./log/data");
+            //Directory.Delete("./log/data");
 
-                - [username:",password:",datetime:"时间戳"}]
-                - -用户操作日志user.log：用户每次操作都要有日志记录，记录操作，用户名，操作方式，时间，如果有异常的，记录异常
-             
-             
-             */
-            string num = "";
-            string userReg = @"^[a-zA-Z][a-zA-Z0-9]{3,14}$";
-            string pwdReg = @"^\S{4,12}$";
-            string path = "./user.json";
-            var JsonOpt = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-                AllowTrailingCommas = true,
+            //Directory.Delete("./log", true);
+
+            //string[] files = Directory.GetFiles("./");
+            //foreach (string file in files) Console.WriteLine(file);
+
+            //string[] files = Directory.GetDirectories("./");
+            //foreach (string file in files) Console.WriteLine(file);
+
+            //string[] files = Directory.GetDirectories("./","*",SearchOption.AllDirectories);
+            //foreach (string file in files) Console.WriteLine(file);
+
+            //string[] files = Directory.GetDirectories("./","log*");
+            //foreach (string file in files) Console.WriteLine(file);
+
+
+            //string[] files = Directory.GetFiles("./","day*",SearchOption.AllDirectories);
+            //foreach (string file in files) Console.WriteLine(file);
+
+            //Func<string, int> isFileOrDir = path =>
+            //{
+            //    if (File.Exists(path)) return 1;
+            //    if (Directory.Exists(path)) return 2;
+            //    return 0;
+            //};
+            //string[] resArr = ["啥也不是", "是文件", "是文件夹"];
+            //int res = isFileOrDir("./content.log");
+            //Console.WriteLine(resArr[res]);
+
+            //Func<string, List<string>> getFileAndDir = path =>
+            //{
+            //    List<string> resList = [];
+            //    if (isFileOrDir(path) != 2) throw new Exception("传递参数有误，必须要是目录路径");
+            //    string[] files=Directory.GetFiles(path);
+            //    resList.AddRange(files);
+            //    string[] dirs = Directory.GetDirectories(path);
+            //    resList.AddRange(dirs);
+            //    return resList;
+            //};
+
+            //var res = getFileAndDir("./");
+            //foreach(var item in res)Console.WriteLine(item);
+
+            //Func<string, Dictionary<string, string[]>> getFileAndDir = path =>
+            //{
+            //    var resDic=new Dictionary<string, string[]>();
+            //    if (isFileOrDir(path) != 2) throw new Exception("传递参数有误，必须要是目录路径");
+            //    string[] files = Directory.GetFiles(path);
+            //    resDic["files"]=files;
+            //    string[] dirs = Directory.GetDirectories(path);
+            //    resDic["dirs"]=dirs;
+            //    return resDic;
+            //};
+
+            //var res = getFileAndDir("./");
+            //foreach (var item in res) {
+
+            //    Console.WriteLine(item.Key);
+            //    foreach(var item2 in item.Value) Console.WriteLine(item2);
+            //    Console.WriteLine("-----------------------");
+            //}
+            #endregion
+
+            #region 路径处理
+            //var res = Path.Combine(@"D:\a\b", "c", "book,jsonn");
+            //Console.WriteLine(res);
+
+            //var path = "D:/demo/ab/ef/book.json";
+            //var res = Path.GetFileName(path);
+            //Console.WriteLine(res);
+
+            //var path = "D:/demo/ab/ef/book.json";
+            //var res = Path.GetExtension(path);
+            //Console.WriteLine(res);
+
+            //var path = "D:/demo/ab/ef/book.json";
+            //var res = Path.GetDirectoryName(path);
+            //Console.WriteLine(res);
+
+            //string[] resArr = File.ReadAllLines("./content.log");
+            //foreach(var item in resArr) Console.WriteLine(item);
+
+
+            //var r=File.ReadLines("./content.log");
+            ////Console.WriteLine(r);
+            //foreach (string line in r) {
+            //    Console.WriteLine(line);
+
+            //}
+            #endregion
+
+            List<Dictionary<string, dynamic>> list = new() {
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "zs",
+                    ["age"] = 29,
+                    ["isMan"] = true,
+                    ["isSingle"] = true,
+                    ["salary"] = 4200
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "ls",
+                    ["age"] = 20,
+                    ["isMan"] = false,
+                    ["isSingle"] = true,
+                    ["salary"] = 3400
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "ww",
+                    ["age"] = 19,
+                    ["isMan"] = true,
+                    ["isSingle"] = false,
+                    ["salary"] = 6000
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "zl",
+                    ["age"] = 14,
+                    ["isMan"] = false,
+                    ["isSingle"] = true,
+                    ["salary"] = 2000
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "sq",
+                    ["age"] = 35,
+                    ["isMan"] = true,
+                    ["isSingle"] = false,
+                    ["salary"] = 7000
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "zb",
+                    ["age"] = 27,
+                    ["isMan"] = false,
+                    ["isSingle"] = true,
+                    ["salary"] = 2900
+                },
             };
 
-            Func<string, string, string> register = (userName, pwd) =>
-            {
-                if (!Regex.IsMatch(userName, userReg) || !Regex.IsMatch(pwd, pwdReg)) return "用户名或密码格式错误！";
-                
-                if (!File.Exists(path)) { 
-                    List<Dictionary<string,dynamic>> userList = new ();
-                    Dictionary<string, dynamic> userDic = new Dictionary<string, dynamic>()
-                    {
-                        ["username"] = userName,
-                        ["password"] = pwd,
-                        ["dateTime"]=DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(),
-                    };
-                    userList.Add (userDic);
-                    var jsonStr=JsonSerializer.Serialize(userDic,JsonOpt);
-                    File.WriteAllText(path, jsonStr);
-                }
-                else
-                {
-                    var jsonStr=File.ReadAllText(path);
-                    var userList=JsonSerializer.Deserialize<List<Dictionary<string,dynamic>>>(jsonStr);
-                    bool isRegister =userList.Exists(i => i["username"]==userName);
-                    if (isRegister) return "用户已注册，请登录";
-                    Dictionary<string, dynamic> userDic = new Dictionary<string, dynamic>()
-                    {
-                        ["username"] = userName,
-                        ["password"] = pwd,
-                        ["dateTime"] = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(),
-                    };
-                    userList.Add(userDic);
-                    var newjsonStr = JsonSerializer.Serialize(userDic, JsonOpt);
-                    File.WriteAllText(path, jsonStr);
-                }
-                return "注册成功";
+            //var res=list.Where(item => item["isSingle"]);
+            //foreach(var item in res)
+            //{
+            //    Console.WriteLine($"name={item["name"]}--age={item["age"]}--salary={item["salary"]}--isSingle={item["isSingle"]}");
+            //}
+
+            //var res = list.Where(item => item["age"]>=18).Select(item=>
+            //    {
+            //        return new Dictionary<string, dynamic>()
+            //        {
+            //            ["name"] = item["name"],
+            //            ["age"] = item["age"],
+            //        };
+            //    });
+            //foreach (var  item in res) Console.WriteLine($"name={item["name"]}--age={item["age"]}");
+            //var res = list.Where(item => item["age"] >= 18).Select(item =>
+            //{
+            //    return item["name"];
+            //});
+            //foreach (var item in res) Console.WriteLine(item);
+
+            //var res = list.Where(item => item["age"] >= 18).Select(item =>
+            //{
+            //    return item["name"] + item["age"];
+            //});
+            //foreach (var item in res) Console.WriteLine(item);
+
+            //List<object> objs = [10, 20, "abc", true, 10, 12.3];
+            //var res = objs.OfType<int>();
+            //foreach (var item in res) Console.WriteLine(item);
+
+            //var res=list.OrderBy(item => item["age"]);
+            //foreach(var item in res) Console.WriteLine($"name={item["name"]}--age={item["age"]}--salary={item["salary"]}");
+
+            //var res = list.OrderByDescending(item => item["age"]);
+            //foreach (var item in res) Console.WriteLine($"name={item["name"]}--age={item["age"]}--salary={item["salary"]}");
+
+            List<Dictionary<string, dynamic>> arr = new() {
+                new Dictionary<string, dynamic>() {
+                    ["name"] = "zs",
+                    ["age"] = 19,
+                    ["salary"] = 3888
+                },
+                new Dictionary<string, dynamic>() {
+                    ["name"] = "ls",
+                    ["age"] = 14,
+                    ["salary"] = 3500
+                },
+                new Dictionary<string, dynamic>() {
+                    ["name"] = "ww",
+                    ["age"] = 14,
+                    ["salary"] = 3000
+                },
+                new Dictionary<string, dynamic>() {
+                    ["name"] = "zl",
+                    ["age"] = 22,
+                    ["salary"] = 4000
+                },
+            };
+            //var res = arr.OrderBy(item => item["age"]).ThenBy(item => item["salary"]);
+            //foreach (var item in res) Console.WriteLine($"name={item["name"]}--age={item["age"]}--salary={item["salary"]}");
+
+            //var res=arr.DistinctBy(item => item["age"]);
+            //foreach(var  item in res) Console.WriteLine($"name={item["name"]}--age={item["age"]}");
+
+            List<Dictionary<string, dynamic>> arr1 = new() {
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "手机",
+                    ["type"] = "电子产品"
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "香蕉",
+                    ["type"] = "水果"
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "苹果",
+                    ["type"] = "水果"
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "平板",
+                    ["type"] = "电子产品"
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "耳机",
+                    ["type"] = "电子产品"
+                },
+                new Dictionary<string, dynamic>(){
+                    ["name"] = "水蜜桃",
+                    ["type"] = "水果"
+                },
             };
 
-            while (num!="0")
-            {
-                Console.WriteLine("======欢迎来到用户管理======");
-                Console.WriteLine("1：用户注册");
-                Console.WriteLine("2：用户登录");
-                Console.WriteLine("0：退出");
-                num = Console.ReadLine();
-                switch (num)
-                {
-                    case "1":
-                        Console.WriteLine("---用户注册---");
-                        Console.WriteLine("请输入用户名(4`15)");
-                        var username = Console.ReadLine();
-                        Console.WriteLine("请输入密码(4`12)");
-                        var password = Console.ReadLine();
-                        var resStr=register(username, password);
-                        Console.WriteLine(resStr);
-                        break;
-                    case "2":
-                        Console.WriteLine("---用户登录---");
-                        break;
-                    case "0":
-                        Console.WriteLine("---退出---");
-                        break;
-                    default:
-                        Console.WriteLine( "输入有误");
-                        break;
-                }
-            }
-           
+            //var res=arr1.GroupBy(item => item["type"]);
+            //foreach(var item in res) {
+            //    Console.WriteLine(item.Key);
+            //    foreach (var item2 in item) {
+            //        Console.WriteLine($"{item2["name"]}--{item2["type"]}");
+            //    }
+            //};
 
+            //var res=list.FirstOrDefault(item => item["age"] > 18);
+            //Console.WriteLine($"name={res["name"]}--age={res["age"]}");
 
-            /*作业：
-                
-                定义一个类，用于处理图书管理系统的数据。
+            //var res = list.LastOrDefault(item => item["age"] > 18);
+            //Console.WriteLine($"name={res["name"]}--age={res["age"]}");
 
-                属性：
+            //bool r = list.Any(item => item["age"] < 10);
+            //Console.WriteLine(r);
 
-                -数据文件路径
+            //bool r = list.All(item => item["salary"] > 500);
+            //Console.WriteLine(r);
 
-                方法：
+            //int count = list.Count;
+            //Console.WriteLine(count);
 
-                -新增数据：强制要求 ==> 将list写入文件中
-                - 编辑数据
-                - 删除数据
-                - 查询所有数据
-                - 根据图书名称查询当前图书数据：强制要求
+            list.Sum();
 
-                图书数据：
-                List<Dictionary<string, dynamic>> data = new List<Dictionary<string, dynamic>>(){
-                    new Dictionary<string, dynamic>(){
-                        ["name"] = "三国演义",
-                        ["author"] = "罗贯中",
-                        ["isBorrow"] = true/false, // false表示还在书库中，true表示外借
-                        ["id"] = 0~1之间的随机小数,
-                        ["mark"] = "言情、武侠",
-                        ["price"] = 56.09 // 价格
-                    },
-            */
+            int sum = list.Sum(item => item["salary"]);
 
 
 
+
+            //Console.WriteLine( sum);
+
+            //double avg = list.Average(item => item["salary"]);
+            //Console.WriteLine(avg);
+
+            //double max = list.Max(item => item["salary"]);
+            //Console.WriteLine(max);
+            //double min = list.Min(item => item["salary"]);
+            //Console.WriteLine(min);
         }
     }
 }

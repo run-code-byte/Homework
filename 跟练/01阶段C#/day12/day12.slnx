@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="day11WH/day11WH.csproj" />
+  <Project Path="day12/day12.csproj" />
+  <Project Path="other/other.csproj" Id="92764f69-d8af-4c85-ba12-135aa742178c" />
+</Solution>
