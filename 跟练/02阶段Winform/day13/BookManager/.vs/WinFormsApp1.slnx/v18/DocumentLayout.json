@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\bookmanager\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\bookmanager\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\bookmanager\\book\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:book\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\bookmanager\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\bookmanager\\winformsapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D4A5AA61-D5E2-133F-C6F5-C1FAED315F32}|WinFormsApp1.csproj|solutionrelative:winformsapp1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-08T12:44:29.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Book\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Book\\Login.Designer.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Book\\Login.Designer.cs",
+              "RelativeToolTip": "Book\\Login.Designer.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAADwv38AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T12:47:50.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-09-08T12:43:27.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WinFormsApp1",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\WinFormsApp1.csproj",
+              "RelativeDocumentMoniker": "WinFormsApp1.csproj",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\WinFormsApp1.csproj",
+              "RelativeToolTip": "WinFormsApp1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-08T12:42:44.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Book\\Login.cs",
+              "RelativeDocumentMoniker": "Book\\Login.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Book\\Login.cs",
+              "RelativeToolTip": "Book\\Login.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwDgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T12:42:22.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Book\\Login.cs",
+              "RelativeDocumentMoniker": "Book\\Login.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\BookManager\\Book\\Login.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Book\\Login.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T14:10:43.831Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

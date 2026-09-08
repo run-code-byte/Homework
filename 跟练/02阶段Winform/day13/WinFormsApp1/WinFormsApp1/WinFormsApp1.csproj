@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ConsoleApp1">
+      <HintPath>..\..\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.dll</HintPath>
+    </Reference>
+    <Reference Include="WinFormsControlLibrary1">
+      <HintPath>..\..\WinFormsControlLibrary1\WinFormsControlLibrary1\bin\Debug\net10.0-windows\WinFormsControlLibrary1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

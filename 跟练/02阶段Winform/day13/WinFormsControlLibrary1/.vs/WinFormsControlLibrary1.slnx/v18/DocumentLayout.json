@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\WinFormsControlLibrary1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC63DAD-121C-4880-AE9A-0DF7C7E52E9F}|WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\winformscontrollibrary1\\winformscontrollibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC63DAD-121C-4880-AE9A-0DF7C7E52E9F}|WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj|solutionrelative:winformscontrollibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC63DAD-121C-4880-AE9A-0DF7C7E52E9F}|WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\winformscontrollibrary1\\winformscontrollibrary1\\usercontrol1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFC63DAD-121C-4880-AE9A-0DF7C7E52E9F}|WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj|solutionrelative:winformscontrollibrary1\\usercontrol1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFC63DAD-121C-4880-AE9A-0DF7C7E52E9F}|WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day13\\winformscontrollibrary1\\winformscontrollibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DFC63DAD-121C-4880-AE9A-0DF7C7E52E9F}|WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj|solutionrelative:winformscontrollibrary1\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\WinFormsControlLibrary1\\WinFormsControlLibrary1\\UserControl1.cs",
+              "RelativeDocumentMoniker": "WinFormsControlLibrary1\\UserControl1.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\WinFormsControlLibrary1\\WinFormsControlLibrary1\\UserControl1.cs",
+              "RelativeToolTip": "WinFormsControlLibrary1\\UserControl1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T10:50:40.338Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl1.Designer.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\WinFormsControlLibrary1\\WinFormsControlLibrary1\\UserControl1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsControlLibrary1\\UserControl1.Designer.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\WinFormsControlLibrary1\\WinFormsControlLibrary1\\UserControl1.Designer.cs",
+              "RelativeToolTip": "WinFormsControlLibrary1\\UserControl1.Designer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T10:57:03.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserControl1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\WinFormsControlLibrary1\\WinFormsControlLibrary1\\UserControl1.cs",
+              "RelativeDocumentMoniker": "WinFormsControlLibrary1\\UserControl1.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day13\\WinFormsControlLibrary1\\WinFormsControlLibrary1\\UserControl1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WinFormsControlLibrary1\\UserControl1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T10:48:46.859Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

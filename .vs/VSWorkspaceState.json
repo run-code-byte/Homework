@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\跟练",
-    "\\跟练\\01阶段C#\\day11\\day11",
     "\\跟练\\02阶段Winform",
-    "\\跟练\\02阶段Winform\\day11",
-    "\\跟练\\02阶段Winform\\day11\\WinFormsApp1"
+    "\\跟练\\02阶段Winform\\day11\\WinFormsApp1",
+    "\\跟练\\02阶段Winform\\day13",
+    "\\跟练\\02阶段Winform\\day13\\WinFormsApp1",
+    "\\跟练\\02阶段Winform\\day13\\WinFormsApp1\\WinFormsApp1"
   ],
-  "SelectedNode": "\\跟练\\02阶段Winform\\day11\\WinFormsApp1\\Program.cs",
+  "SelectedNode": "\\跟练\\02阶段Winform\\day13\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

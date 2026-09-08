@@ -36,8 +36,36 @@ namespace day12
                 Sf.Alignment = StringAlignment.Center;
                 Sf.LineAlignment = StringAlignment.Center;
                 g.DrawString("DGI+测试文字", f, brushBlack, 500, 300,Sf);
+
+                //Point[] points={
+                    
+                //    new Point(750,10),
+                //    new Point(950,10),
+                //    new Point(900,210),
+                //    new Point(700,210),
+                //};
+                //g.DrawPolygon(penO, points);
+                //g.FillPolygon(brushColor, points);
+
+                Point[] points ={
+
+                    new Point(750,10),
+                    new Point(950,10),
+                    new Point(900,210),
+                    //new Point(700,210),
+                };
+                g.FillPolygon(brushColor, points);
+                Point[] points2 ={
+
+                    new Point(750,10),
+                    //new Point(950,10),
+                    new Point(900,210),
+                    new Point(700,210),
+                };
+                g.DrawPolygon(penO, points2);
+
             }
-            
+
 
         }
 

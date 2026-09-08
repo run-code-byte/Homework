@@ -1,0 +1,12 @@
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.deps.json
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.dll
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\bin\Debug\net10.0\ConsoleApp1.pdb
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.AssemblyInfo.cs
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.sourcelink.json
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.dll
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\refint\ConsoleApp1.dll
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ConsoleApp1.pdb
+D:\demo\Homework\跟练\02阶段Winform\day13\ConsoleApp1\ConsoleApp1\obj\Debug\net10.0\ref\ConsoleApp1.dll

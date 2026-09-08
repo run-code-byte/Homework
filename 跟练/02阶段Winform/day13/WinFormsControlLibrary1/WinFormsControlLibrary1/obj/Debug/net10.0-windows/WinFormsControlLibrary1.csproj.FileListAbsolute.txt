@@ -1,0 +1,14 @@
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\bin\Debug\net10.0-windows\WinFormsControlLibrary1.deps.json
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\bin\Debug\net10.0-windows\WinFormsControlLibrary1.dll
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\bin\Debug\net10.0-windows\WinFormsControlLibrary1.pdb
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.UserControl1.resources
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.csproj.GenerateResource.cache
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.AssemblyInfo.cs
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.sourcelink.json
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.dll
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\refint\WinFormsControlLibrary1.dll
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\WinFormsControlLibrary1.pdb
+D:\demo\Homework\跟练\02阶段Winform\day13\WinFormsControlLibrary1\WinFormsControlLibrary1\obj\Debug\net10.0-windows\ref\WinFormsControlLibrary1.dll
