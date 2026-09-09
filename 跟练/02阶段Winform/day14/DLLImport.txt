@@ -1,0 +1,2 @@
+[DllImport("kernel32.dll")]
+public static extern bool AllocConsole();
