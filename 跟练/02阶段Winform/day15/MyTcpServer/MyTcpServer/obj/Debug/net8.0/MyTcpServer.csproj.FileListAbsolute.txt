@@ -1,0 +1,16 @@
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.AssemblyInfo.cs
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.sourcelink.json
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\bin\Debug\net8.0\MyTcpServer.exe
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\bin\Debug\net8.0\MyTcpServer.deps.json
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\bin\Debug\net8.0\MyTcpServer.runtimeconfig.json
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\bin\Debug\net8.0\MyTcpServer.dll
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\bin\Debug\net8.0\MyTcpServer.pdb
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.dll
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\refint\MyTcpServer.dll
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.pdb
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpServer.genruntimeconfig.cache
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\ref\MyTcpServer.dll
+D:\demo\Homework\跟练\02阶段Winform\day15\MyTcpServer\MyTcpServer\obj\Debug\net8.0\MyTcpSer.837C55E5.Up2Date

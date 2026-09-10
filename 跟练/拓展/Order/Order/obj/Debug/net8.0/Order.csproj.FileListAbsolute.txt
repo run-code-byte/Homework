@@ -1,0 +1,16 @@
+D:\demo\Homework\跟练\拓展\Order\Order\bin\Debug\net8.0\Order.exe
+D:\demo\Homework\跟练\拓展\Order\Order\bin\Debug\net8.0\Order.deps.json
+D:\demo\Homework\跟练\拓展\Order\Order\bin\Debug\net8.0\Order.runtimeconfig.json
+D:\demo\Homework\跟练\拓展\Order\Order\bin\Debug\net8.0\Order.dll
+D:\demo\Homework\跟练\拓展\Order\Order\bin\Debug\net8.0\Order.pdb
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.AssemblyInfo.cs
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.sourcelink.json
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.dll
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\refint\Order.dll
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.pdb
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.genruntimeconfig.cache
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\ref\Order.dll
+D:\demo\Homework\跟练\拓展\Order\Order\obj\Debug\net8.0\Order.csproj.Up2Date

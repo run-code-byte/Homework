@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpClient-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7C5BDC-7083-618F-C996-B31F7B6260DD}|MyTcpClient\\MyTcpClient.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\mytcpclient-2\\mytcpclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7C5BDC-7083-618F-C996-B31F7B6260DD}|MyTcpClient\\MyTcpClient.csproj|solutionrelative:mytcpclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6455C9-6186-4C30-BDB9-044787EF8C91}|MyTcpClient\\MyTcpClient.csproj|D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpClient-2\\mytcpclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C6455C9-6186-4C30-BDB9-044787EF8C91}|MyTcpClient\\MyTcpClient.csproj|solutionrelative:mytcpclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpClient-2\\MyTcpClient\\Form1.cs",
+              "RelativeDocumentMoniker": "MyTcpClient\\Form1.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpClient-2\\MyTcpClient\\Form1.cs",
+              "RelativeToolTip": "MyTcpClient\\Form1.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAiwGkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T11:29:16.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpClient-2\\MyTcpClient\\Form1.cs",
+              "RelativeDocumentMoniker": "MyTcpClient\\Form1.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpClient\\MyTcpClient\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\MyTcpClient\\MyTcpClient\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T11:25:37.892Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
