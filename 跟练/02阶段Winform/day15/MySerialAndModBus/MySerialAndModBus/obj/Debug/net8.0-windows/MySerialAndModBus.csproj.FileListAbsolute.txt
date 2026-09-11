@@ -38,3 +38,5 @@ D:\demo\Homework\跟练\02阶段Winform\day15\MySerialAndModBus\MySerialAndModBu
 D:\demo\Homework\跟练\02阶段Winform\day15\MySerialAndModBus\MySerialAndModBus\obj\Debug\net8.0-windows\MySerialAndModBus.genruntimeconfig.cache
 D:\demo\Homework\跟练\02阶段Winform\day15\MySerialAndModBus\MySerialAndModBus\obj\Debug\net8.0-windows\ref\MySerialAndModBus.dll
 D:\demo\Homework\跟练\02阶段Winform\day15\MySerialAndModBus\MySerialAndModBus\obj\Debug\net8.0-windows\MySerialAndModBus.MySerialPort2.resources
+D:\demo\Homework\跟练\02阶段Winform\day15\MySerialAndModBus\MySerialAndModBus\bin\Debug\net8.0-windows\NModbus4.dll
+D:\demo\Homework\跟练\02阶段Winform\day15\MySerialAndModBus\MySerialAndModBus\obj\Debug\net8.0-windows\MySerialAndModBus.ModBus.resources

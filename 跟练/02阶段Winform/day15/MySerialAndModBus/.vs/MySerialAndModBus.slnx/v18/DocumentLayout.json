@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\myserialport2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\myserialport2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\beltmodbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\beltmodbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\myserialport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\myserialport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\myserialport2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\myserialport2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\beltmodbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\beltmodbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\myserialport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\myserialport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\modbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\modbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC57233D-3C36-4707-8FB6-AB9EFD6739EA}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\myserialandmodbus\\myserialandmodbus\\modbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52FA3A1E-F1A3-154A-D17B-BD0AEA2DA2DE}|MySerialAndModBus\\MySerialAndModBus.csproj|solutionrelative:myserialandmodbus\\modbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,76 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MySerialPort2.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort2.cs",
-              "RelativeDocumentMoniker": "MySerialAndModBus\\MySerialPort2.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort2.cs",
-              "RelativeToolTip": "MySerialAndModBus\\MySerialPort2.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBYAAAApAAAAAAAAAA==",
+              "Title": "BeltModBus.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\BeltModBus.cs",
+              "RelativeDocumentMoniker": "MySerialAndModBus\\BeltModBus.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\BeltModBus.cs",
+              "RelativeToolTip": "MySerialAndModBus\\BeltModBus.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwB8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T14:19:46.93Z",
+              "WhenOpened": "2026-09-11T02:56:41.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MySerialPort2.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort2.cs",
-              "RelativeDocumentMoniker": "MySerialAndModBus\\MySerialPort2.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort2.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "MySerialAndModBus\\MySerialPort2.cs [\u8BBE\u8BA1]",
+              "Title": "BeltModBus.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\BeltModBus.cs",
+              "RelativeDocumentMoniker": "MySerialAndModBus\\BeltModBus.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\BeltModBus.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MySerialAndModBus\\BeltModBus.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T14:19:06.927Z",
+              "WhenOpened": "2026-09-11T02:54:09.624Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MySerialPort.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort.cs",
-              "RelativeDocumentMoniker": "MySerialAndModBus\\MySerialPort.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort.cs",
-              "RelativeToolTip": "MySerialAndModBus\\MySerialPort.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T13:19:51.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\Program.cs",
               "RelativeDocumentMoniker": "MySerialAndModBus\\Program.cs",
               "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\Program.cs",
               "RelativeToolTip": "MySerialAndModBus\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T13:18:29.315Z",
+              "WhenOpened": "2026-09-11T00:51:02.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MySerialPort.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort.cs",
-              "RelativeDocumentMoniker": "MySerialAndModBus\\MySerialPort.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialPort.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "MySerialAndModBus\\MySerialPort.cs [\u8BBE\u8BA1]",
+              "Title": "ModBus.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\ModBus.cs",
+              "RelativeDocumentMoniker": "MySerialAndModBus\\ModBus.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\ModBus.cs",
+              "RelativeToolTip": "MySerialAndModBus\\ModBus.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T13:18:19.471Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2026-09-11T00:41:47.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\Form1.cs",
-              "RelativeDocumentMoniker": "MySerialAndModBus\\Form1.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\Form1.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "MySerialAndModBus\\Form1.cs [\u8BBE\u8BA1]",
+              "DocumentIndex": 4,
+              "Title": "ModBus.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\ModBus.cs",
+              "RelativeDocumentMoniker": "MySerialAndModBus\\ModBus.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\ModBus.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MySerialAndModBus\\ModBus.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T13:13:58.624Z",
+              "WhenOpened": "2026-09-11T00:39:38.105Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             }
           ]

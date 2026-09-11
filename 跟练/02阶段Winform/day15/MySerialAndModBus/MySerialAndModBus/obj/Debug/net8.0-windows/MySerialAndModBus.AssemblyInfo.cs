@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySerialAndModBus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66338447f845bb6eed1efc8335fb1a564f5293d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04bdb6d0408da0b2f8858396dc432c738e173f72")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySerialAndModBus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySerialAndModBus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

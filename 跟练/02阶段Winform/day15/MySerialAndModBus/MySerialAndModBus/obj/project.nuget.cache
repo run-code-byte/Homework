@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NlmPIDKFin4=",
+  "dgSpecHash": "NKX+rC5u31o=",
   "success": true,
   "projectFilePath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialAndModBus.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\nmodbus4\\2.1.0\\nmodbus4.2.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.12\\runtime.android-arm.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.12\\runtime.android-arm64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.12\\runtime.android-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
@@ -23,5 +24,18 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.12\\runtime.osx-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.io.ports\\10.0.12\\system.io.ports.10.0.12.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0-windows7.0”还原包“NModbus4 2.1.0”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialAndModBus.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day15\\MySerialAndModBus\\MySerialAndModBus\\MySerialAndModBus.csproj",
+      "libraryId": "NModbus4",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    }
+  ]
 }

@@ -48,6 +48,10 @@
           "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "NModbus4": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "System.IO.Ports": {
               "target": "Package",
               "version": "[10.0.12, )"

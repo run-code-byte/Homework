@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\day15hw\\day15hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|solutionrelative:day15hw\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\day15hw\\day15hw\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|solutionrelative:day15hw\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\day15hw\\day15hw\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|solutionrelative:day15hw\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\day15hw\\day15hw\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB1FAB9E-74F7-44C1-962A-B59C94CF5258}|day15HW\\day15HW.csproj|solutionrelative:day15hw\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "day15HW\\Form2.Designer.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form2.Designer.cs",
+              "RelativeToolTip": "day15HW\\Form2.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv2cAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T08:23:08.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form2.cs",
+              "RelativeDocumentMoniker": "day15HW\\Form2.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form2.cs",
+              "RelativeToolTip": "day15HW\\Form2.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T08:22:57.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form2.cs",
+              "RelativeDocumentMoniker": "day15HW\\Form2.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form2.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "day15HW\\Form2.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T08:13:52.257Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form1.cs",
+              "RelativeDocumentMoniker": "day15HW\\Form1.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\day15HW\\day15HW\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "day15HW\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T07:31:03.879Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
