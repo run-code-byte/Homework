@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "kf4Ss5LJ1nM=",
+  "success": true,
+  "projectFilePath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day17\\TCM\\TCM\\TCM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mysqlconnector\\2.6.2\\mysqlconnector.2.6.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nmodbus4\\2.1.0\\nmodbus4.2.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.12\\runtime.android-arm.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.12\\runtime.android-arm64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.12\\runtime.android-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\10.0.12\\runtime.android-x86.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\10.0.12\\runtime.linux-arm.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\10.0.12\\runtime.linux-arm64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\10.0.12\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\10.0.12\\runtime.linux-bionic-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\10.0.12\\runtime.linux-musl-arm.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\10.0.12\\runtime.linux-musl-arm64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\10.0.12\\runtime.linux-musl-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\10.0.12\\runtime.linux-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\10.0.12\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\10.0.12\\runtime.maccatalyst-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.native.system.io.ports\\10.0.12\\runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\10.0.12\\runtime.osx-arm64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.12\\runtime.osx-x64.runtime.native.system.io.ports.10.0.12.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.io.ports\\10.0.12\\system.io.ports.10.0.12.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0-windows7.0”还原包“NModbus4 2.1.0”。此包可能与项目不完全兼容。",
+      "projectPath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day17\\TCM\\TCM\\TCM.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\demo\\Homework\\跟练\\02阶段Winform\\day17\\TCM\\TCM\\TCM.csproj",
+      "libraryId": "NModbus4",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    }
+  ]
+}

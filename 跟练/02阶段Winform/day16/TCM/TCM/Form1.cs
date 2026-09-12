@@ -13,7 +13,7 @@ namespace TCM
             this.Shown += TCMInit;
         }
 
-     
+
 
         // 定义数据
         private BindingList<DeviceTempRecord> DTRs; // 表格数据
@@ -34,27 +34,184 @@ namespace TCM
 
             SetDataColumns();
             TempTimer = new System.Windows.Forms.Timer();
-            TempTimer.Interval= 500;
+            TempTimer.Interval = 400;
             TempTimer.Tick += TempMoni;
 
-            DataTimer= new System.Windows.Forms.Timer();
-            DataTimer.Interval= 3000;
+            DataTimer = new System.Windows.Forms.Timer();
+            DataTimer.Interval = 500;
             DataTimer.Tick += DataRecorde;
 
             tempPanel.Paint += TempPaint;
 
             // 按钮绑定事件
             connPLCBtn.Click += ConnectPLC;
-            //setTempBtn.Click += SetTemp;
-            //startBtn.Click += StartDevice;
-            //stopBtn.Click += StopDevice;
-            //closePLCBtn.Click += ClosePLC;
+            setTempBtn.Click += SetTemp;
+            startBtn.Click += StartDevice;
+            stopBtn.Click += StopDevice;
+            closePLCBtn.Click += ClosePLC;
+
+            goHistoryDataBtn.Click += GoHData;
         }
 
-        private void ConnectPLC(object sender, EventArgs e)
+        private void GoHData(object sender, EventArgs e)
         {
-            
+            new Form2().Show();
         }
+
+        private void TempMoni(object sender, EventArgs e)
+        {
+            ushort[] Temps = Master.ReadHoldingRegisters(1, 1, 2);
+            ushort CurrTemp = Temps[1];
+
+            if (isHeating)
+            {
+                CurrTemp++;
+                if (CurrTemp >=300)
+                {
+                    CurrTemp = 300;
+                    isHeating = false;
+                }
+            }
+            else
+            {
+                CurrTemp--;
+                if (CurrTemp <= 30)
+                {
+                    CurrTemp = 30;
+                    isHeating = true;
+                }
+            }
+
+            if (Temps[0] == Temps[1])
+            {
+                string msg = isHeating ? $"【警告】发生超温故障，实际温度={Temps[1]}，目标温度={Temps[0]}":"超温故障已消除";
+                WriteLog(msg);
+                Master.WriteSingleRegister(1, 0, isHeating ? (ushort)2 : (ushort)1);
+                Master.WriteSingleRegister(1, 3, isHeating ? (ushort)1 : (ushort)0);
+            }
+            currentTempLab.Text = CurrTemp + "°C";
+            Master.WriteSingleRegister(1, 2, CurrTemp);
+            tempPanel.Invalidate();
+        }
+
+        private async void DataRecorde(object sender, EventArgs e)
+        {
+            ushort[] ResArr = await Master.ReadHoldingRegistersAsync(1, 0, 4);
+            DeviceTempRecord DTR = new DeviceTempRecord(ResArr);
+            DTRs.Add(DTR);
+            RecordeDataBase++;
+            if (RecordeDataBase == 6)
+            {
+
+                Console.WriteLine($"采集时间：{DTR.CollectTime} 设备状态：{DTR.DeviceStatus} 设定温度：{DTR.SetTemp} 实际温度：{DTR.RealTemp} 故障码：{DTR.FaultCode}");
+                //todo:  将DTR 写入数据库
+                RecordeDataBase = 0;// 计数器重置为0
+            }
+        }
+
+       
+
+        private async void ClosePLC(object sender, EventArgs e)
+        {
+            TempTimer.Stop();
+            DataTimer.Stop();
+            MyPort.Close();
+            MyPort = null;
+            Master = null;
+            closePLCBtn.Enabled = false;
+            startBtn.Enabled = false;
+            stopBtn.Enabled = false;
+            inpTempTb.Enabled = false;
+            setTempBtn.Enabled = false;
+            connPLCBtn.Enabled = true;
+            plcStatusLabel.Text = "当前状态：未连接";
+            plcStatusLabel.ForeColor = Color.Black;
+            WriteLog("断开设备，停止采集");
+            Console.WriteLine("---断开（关闭）PLC---");
+        }
+        private async void StopDevice(object sender, EventArgs e)
+        {
+            TempTimer.Stop();
+            stopBtn.Enabled = false;
+            startBtn.Enabled = true;
+            inpTempTb.Enabled = true;
+            setTempBtn.Enabled= true;
+            await Master.WriteSingleRegisterAsync(1, 0, 0);
+            WriteLog("设备置待机状态");
+            Console.WriteLine("---设备停止---");
+
+        }
+
+        private async void StartDevice(object sender, EventArgs e)
+        {
+            TempTimer.Start();
+            DataTimer.Start();
+            await Master.WriteSingleRegisterAsync(1, 0, 1);
+            startBtn.Enabled = false;
+            stopBtn.Enabled = true;
+            WriteLog("设备置运行状态");
+            Console.WriteLine("===设备启动===");
+        }
+
+        private async void SetTemp(object sender, EventArgs e)
+        {
+            if(!int.TryParse(inpTempTb.Text,out int temp)||temp<0||temp>600)
+            {
+                MessageBox.Show("输入设定的温度有误！！！");
+                return;
+            }
+            await Master.WriteSingleRegisterAsync(1, 1, (ushort)temp);
+            inpTempTb.Enabled = false;
+            setTempBtn.Enabled = false;
+            startBtn.Enabled = true;
+            setTempLab.Text = $"{temp}°C";
+            WriteLog($"设置目标温度={temp}°C");
+
+        }
+        private async void ConnectPLC(object sender, EventArgs e)
+        {
+            if (Master != null) return;
+            try
+            {
+                MyPort = new SerialPort("COM1", 9600, Parity.None, 8, StopBits.One);
+                MyPort.Open();
+                Master = ModbusSerialMaster.CreateRtu(MyPort);
+                Master.Transport.ReadTimeout = 2000;
+                Master.Transport.Retries = 3;
+
+                await Master.WriteSingleRegisterAsync(1, 0, 0);
+                await Master.WriteSingleRegisterAsync(1, 2, 30);
+                await Master.WriteSingleRegisterAsync(1, 3, 0);
+                plcStatusLabel.Text = "当前状态：已连接";
+                plcStatusLabel.ForeColor= Color.Green;
+                Console.WriteLine("====连接设备（PLC）成功====");
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show($"设备连接失败，异常：{err.Message}");
+                return;
+            }
+            
+
+            connPLCBtn.Enabled = false;
+            closePLCBtn.Enabled = true;
+            inpTempTb.Enabled= true;
+            setTempBtn.Enabled = true;
+
+            WriteLog("连接设备成功，开始采集");
+
+        }
+
+        private void WriteLog(string msg)
+        {
+            Label lab= new Label();
+            lab.Text = DateTime.Now.ToString() + " " + msg;
+            lab.AutoSize = true;
+            lab.ForeColor = msg.Contains("警告") ? Color.Red : Color.Black;
+            flowLayoutPanel1.Controls.Add(lab);
+
+        }
+
 
         private void TempPaint(object sender, PaintEventArgs e)
         {
@@ -102,18 +259,18 @@ namespace TCM
 
                 }
                 //定义变量去modbus寄存器地址2中获取实时温度  用来给指针转动的值 
-                //ushort realTemp = 0;
-                //if (Master != null)
-                //{
-                //    ushort[] realTempushort = Master.ReadHoldingRegisters(1, 2, 1);
-                //    realTemp = realTempushort[0];
-                //}
+                ushort realTemp = 0;
+                if (Master != null)
+                {
+                    ushort[] realTempushort = Master.ReadHoldingRegisters(1, 2, 1);
+                    realTemp = realTempushort[0];
+                }
 
                 // 角度 180°/120 ===> 1.5 
                 // 温度 600 / 120   ===> 5
                 // 所以温度一度 就是 角度 0.3度
-                double pointX = locationX - (r - 10) * Math.Cos(50 * 0.3 * Math.PI / 180);
-                double pointY = locationY - (r - 10) * Math.Sin(50 * 0.3 * Math.PI / 180);
+                double pointX = locationX - (r - 10) * Math.Cos(realTemp * 0.3 * Math.PI / 180);
+                double pointY = locationY - (r - 10) * Math.Sin(realTemp * 0.3 * Math.PI / 180);
 
                 using (Pen penline = new Pen(Color.Green, 2))
                 {
@@ -123,29 +280,22 @@ namespace TCM
             }
         }
 
-        private void DataRecorde(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void TempMoni(object sender, EventArgs e)
-        {
-            
-        }
+     
 
         private void SetDataColumns()
         {
             DTRs = new();
-            dataGridView1.AutoGenerateColumns= false;
+            dataGridView1.AutoGenerateColumns = false;
             dataGridView1.DataSource = DTRs;
-            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn(){
-                DataPropertyName="CollectTime",
-                Name="CollectTime",
-                HeaderText="采集时间",
-                DefaultCellStyle=new DataGridViewCellStyle()
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn()
+            {
+                DataPropertyName = "CollectTime",
+                Name = "CollectTime",
+                HeaderText = "采集时间",
+                DefaultCellStyle = new DataGridViewCellStyle()
                 {
-                    Format="yyyy-mm-dd hh:mm:ss",
-                    Alignment=DataGridViewContentAlignment.MiddleCenter
+                    Format = "yyyy-MM-dd hh:mm:ss",
+                    Alignment = DataGridViewContentAlignment.MiddleCenter
                 }
             });
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn()
@@ -189,12 +339,14 @@ namespace TCM
                 }
             });
 
-            dataGridView1.ColumnHeadersVisible = false;
+            dataGridView1.RowHeadersVisible = false;
             dataGridView1.ReadOnly = true;
-            dataGridView1.AllowUserToAddRows= false;
-            dataGridView1.AllowUserToDeleteRows= false;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
+
+     
     }
 
     public class DoubleBufferPanel : Panel
