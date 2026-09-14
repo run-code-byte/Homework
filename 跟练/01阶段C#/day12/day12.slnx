@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="BookManager/BookManager.csproj" Id="ce3eb49f-ed0a-4183-9ccd-b17dce289ec9" />
   <Project Path="day11WH/day11WH.csproj" />
   <Project Path="day12/day12.csproj" />
   <Project Path="other/other.csproj" Id="92764f69-d8af-4c85-ba12-135aa742178c" />

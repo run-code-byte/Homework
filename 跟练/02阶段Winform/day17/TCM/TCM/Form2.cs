@@ -5,8 +5,10 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TCM.models;
 using TCM.mysql;
 
 namespace TCM
@@ -26,17 +28,78 @@ namespace TCM
             dateTimePicker2.Value = DateTime.Now;
 
             button1.Click += SearchData;
-            button2.Click += SaveData; ;
+            button2.Click += SaveData;
+            dateTimePicker1.ValueChanged += TimeChange;
+            dateTimePicker2.ValueChanged += TimeChange;
         }
 
-        private void SaveData(object? sender, EventArgs e)
+        private void TimeChange(object sender, EventArgs e)
         {
-            
+            dateTimePicker1.MaxDate = dateTimePicker2.Value;
+            dateTimePicker2.MinDate=dateTimePicker1.Value;
+            dateTimePicker2.MaxDate = DateTime.Now;
         }
 
-        private void SearchData(object? sender, EventArgs e)
+        private async void SaveData(object? sender, EventArgs e)
         {
-            
+            var dt=dataGridView1.DataSource as DataTable;
+            if (dt.Rows.Count == 0) return;
+            List<DeviceTempRecord> dtrs=dt.AsEnumerable().Select(row => new DeviceTempRecord()
+            {
+                CollectTime = row.Field<DateTime>("CollectTime"),
+                DeviceStatus = row.Field<int>("DeviceStatus"),
+                SetTemp = row.Field<int>("SetTemp"),
+                RealTemp = row.Field<int>("RealTemp"),
+                FaultCode = row.Field<int>("FaultCode"),
+
+            }).ToList();
+
+            string resStr=JsonSerializer.Serialize(dtrs, new JsonSerializerOptions()
+            {
+                WriteIndented = true,
+                AllowTrailingCommas = true,
+                Encoder=System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            });
+            Console.WriteLine(resStr);
+            using (SaveFileDialog Sf = new SaveFileDialog()){
+                Sf.Title = "保存历史数据";
+                Sf.Filter = "JSON文件|*.json";
+                Sf.FileName = DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss");
+                if (Sf.ShowDialog() == DialogResult.OK)
+                {
+                    File.WriteAllText(Sf.FileName, resStr );
+                }
+            }
+
+        }
+
+        private  void TempCala(DataTable dt)
+        {
+            if(dt== null||dt.Rows.Count==0)
+            {
+                label4.Text = "最高温度：NaN";
+                label5.Text = "最低温度：NaN";
+                label6.Text = "平均温度：NaN";
+                return;
+            }
+            var MaxTemp = dt.Compute("Max(RealTemp)", "");
+            var MinTemp = dt.Compute("Min(RealTemp)", "");
+            var AvgTemp = dt.Compute("Avg(RealTemp)", "");
+            label4.Text = $"最高温度：{MaxTemp}°C";
+            label5.Text = $"最低温度：{MinTemp}°C";
+            label6.Text = $"平均温度：{AvgTemp}°C";
+
+            //Console.WriteLine(dt.Compute("Max(RealTemp)", ""));
+            //Console.WriteLine(dt.Compute("Min(RealTemp)", ""));
+            //Console.WriteLine(dt.Compute("Avg(RealTemp)", ""));
+            //Console.WriteLine(dt.Compute("Sum(RealTemp)", ""));
+        }
+
+        private async void SearchData(object? sender, EventArgs e)
+        {
+            DataTable SearchDt = await MysqlHandler.SearchByTime(dateTimePicker1.Value, dateTimePicker2.Value);
+            dataGridView1.DataSource = SearchDt;
+            TempCala(SearchDt);
         }
 
         private async void SetDataColumns()
@@ -102,6 +165,7 @@ namespace TCM
 
             DataTable dt=await MysqlHandler.SearchAll();
             dataGridView1.DataSource = dt;
+            TempCala(dt);
         }
     }
 }

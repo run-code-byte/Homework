@@ -1,5 +1,35 @@
 # C#工业视觉上位机｜精简背诵版（day02‑day15+拓展）
 
+day02 var / dynamic / 集合 / Random
+
+day03｜运算符、if‑switch、三元
+
+day04｜循环 while / do‑while / for / foreach
+
+day05｜List手写去重、冒泡排序
+
+day06｜字符串 + 正则表达式
+
+day07｜类型转换、时间、JSON、多维&交错数组
+
+day08｜函数、参数、异常、Debug
+
+day09｜委托、ref/out/params、Lambda、元组、List高级方法、IO
+
+day10｜LINQ、面向对象基础
+
+day12｜回调函数、继承、多态
+
+day13｜抽象类、静态类、密封类、接口、this、属性访问器
+
+day14｜命名空间、struct、async‑await、enum、HttpClient、泛型、项目发布
+
+day15｜OOP综合实战｜车辆租还系统
+
+拓展｜装箱拆箱、partial分部类
+
+
+
 ## day02 var / dynamic / 集合 / Random
 
 ### 核心考点

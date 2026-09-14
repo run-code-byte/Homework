@@ -22,45 +22,45 @@ namespace TCM.models
         }
 
         private ushort _DeviceStatus;
-        public ushort DeviceStatus
+        public int  DeviceStatus
         {
             get { return _DeviceStatus; }
             set
             {
-                _DeviceStatus = value;
+                _DeviceStatus = (ushort)value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(DeviceStatus)));
             }
         }
 
         private ushort _SetTemp;
-        public ushort SetTemp
+        public int SetTemp
         {
             get { return _SetTemp; }
             set
             {
-                _SetTemp = value;
+                _SetTemp = (ushort)value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SetTemp)));
             }
         }
 
         private ushort _RealTemp;
-        public ushort RealTemp
+        public int  RealTemp
         {
             get { return _RealTemp; }
             set
             {
-                _RealTemp = value;
+                _RealTemp = (ushort)value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(RealTemp)));
             }
         }
 
         private ushort _FaultCode;
-        public ushort FaultCode
+        public int  FaultCode
         {
             get { return _FaultCode; }
             set
             {
-                _FaultCode = value;
+                _FaultCode = (ushort)value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(FaultCode)));
             }
         }
@@ -73,5 +73,6 @@ namespace TCM.models
             RealTemp = DTR[2];
             FaultCode = DTR[3];
         }
+        public DeviceTempRecord() { }
     }
 }

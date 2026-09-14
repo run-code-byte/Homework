@@ -19,7 +19,8 @@ namespace TCM.mysql
 
         internal async static Task<DataTable> SearchByTime(DateTime t1,DateTime t2 )
         {
-            string sql = "select *from DeviceTempRecord where CollecTime between '{t1}' and '{t2}' order by CollectTime DESC";
+            string sql = $"select *from DeviceTempRecord where CollectTime between '{t1}' and '{t2}' order by CollectTime DESC";
+            //Console.WriteLine(sql);
             return await myBase.SearchData(sql);
         }
 

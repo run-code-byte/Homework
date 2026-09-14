@@ -39,7 +39,6 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            dateTimePicker3 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -153,22 +152,11 @@
             label6.Text = "平均温度：44°";
             label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // dateTimePicker3
-            // 
-            dateTimePicker3.CustomFormat = "yyyy-MM-dd hh:mm:ss";
-            dateTimePicker3.Format = DateTimePickerFormat.Custom;
-            dateTimePicker3.Location = new Point(52, 49);
-            dateTimePicker3.Name = "dateTimePicker3";
-            dateTimePicker3.ShowUpDown = true;
-            dateTimePicker3.Size = new Size(200, 23);
-            dateTimePicker3.TabIndex = 13;
-            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(984, 561);
-            Controls.Add(dateTimePicker3);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -199,6 +187,5 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private DateTimePicker dateTimePicker3;
     }
 }
