@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3AC52B1-0973-42A6-947D-71B60CCD3C34}|MyTcpServer\\MyTcpServer.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\mytcpserver\\mytcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3AC52B1-0973-42A6-947D-71B60CCD3C34}|MyTcpServer\\MyTcpServer.csproj|solutionrelative:mytcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E103F04C-7EA3-B1AC-7B37-7D52524C4A62}|MyTcpServer\\MyTcpServer.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\02\u9636\u6BB5winform\\day15\\mytcpserver\\mytcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E103F04C-7EA3-B1AC-7B37-7D52524C4A62}|MyTcpServer\\MyTcpServer.csproj|solutionrelative:mytcpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "MyTcpServer\\Program.cs",
               "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\02\u9636\u6BB5Winform\\day15\\MyTcpServer\\MyTcpServer\\Program.cs",
               "RelativeToolTip": "MyTcpServer\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowDsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T10:36:41.459Z",
               "EditorCaption": ""
