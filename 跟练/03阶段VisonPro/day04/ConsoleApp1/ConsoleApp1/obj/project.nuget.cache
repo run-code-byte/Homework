@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "cRHjyR+6Wy4=",
+  "success": true,
+  "projectFilePath": "D:\\demo\\Homework\\跟练\\03阶段VisonPro\\day04\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "包 \"Newtonsoft.Json\" 12.0.3 具有已知的 高 严重性漏洞，https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "D:\\demo\\Homework\\跟练\\03阶段VisonPro\\day04\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\demo\\Homework\\跟练\\03阶段VisonPro\\day04\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
