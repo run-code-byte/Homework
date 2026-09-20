@@ -1,0 +1,18 @@
+[
+  {
+    "name": "\u4E09\u56FD\u6F14\u4E49",
+    "author": "\u7F57\u8D2F\u4E2D",
+    "isBorrow": false,
+    "id": 0.14779441286196082,
+    "mark": "\u6218\u4E89\u3001\u8C0B\u7565",
+    "price": 56.9
+  },
+  {
+    "name": "\u7EA2\u697C\u68A6",
+    "author": "\u66F9\u96EA\u82B9",
+    "isBorrow": false,
+    "id": 0.4905998068005347,
+    "mark": "\u8A00\u60C5\u3001\u9B3C\u72D0",
+    "price": 99.99
+  }
+]

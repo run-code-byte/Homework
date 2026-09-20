@@ -1,0 +1,16 @@
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\bin\Debug\net8.0\BookManager.exe
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\bin\Debug\net8.0\BookManager.deps.json
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\bin\Debug\net8.0\BookManager.runtimeconfig.json
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\bin\Debug\net8.0\BookManager.dll
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\bin\Debug\net8.0\BookManager.pdb
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.AssemblyInfo.cs
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.sourcelink.json
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.dll
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\refint\BookManager.dll
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.pdb
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookManager.genruntimeconfig.cache
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\ref\BookManager.dll
+D:\demo\Homework\跟练\01阶段C#\day13\BookManager\BookManager\obj\Debug\net8.0\BookMana.811100A4.Up2Date

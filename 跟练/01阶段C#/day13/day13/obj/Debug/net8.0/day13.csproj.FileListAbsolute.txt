@@ -1,0 +1,16 @@
+D:\demo\Homework\跟练\01阶段C#\day13\day13\bin\Debug\net8.0\day13.exe
+D:\demo\Homework\跟练\01阶段C#\day13\day13\bin\Debug\net8.0\day13.deps.json
+D:\demo\Homework\跟练\01阶段C#\day13\day13\bin\Debug\net8.0\day13.runtimeconfig.json
+D:\demo\Homework\跟练\01阶段C#\day13\day13\bin\Debug\net8.0\day13.dll
+D:\demo\Homework\跟练\01阶段C#\day13\day13\bin\Debug\net8.0\day13.pdb
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.AssemblyInfo.cs
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.sourcelink.json
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.dll
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\refint\day13.dll
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.pdb
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.genruntimeconfig.cache
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\ref\day13.dll
+D:\demo\Homework\跟练\01阶段C#\day13\day13\obj\Debug\net8.0\day13.csproj.Up2Date

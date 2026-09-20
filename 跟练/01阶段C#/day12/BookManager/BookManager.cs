@@ -18,8 +18,19 @@ namespace BookManager
         //- 新增数据：强制要求 ==> 将list写入文件中
         public string AddBook(Dictionary<string,dynamic> bookDic)
         {
+            List<Dictionary<string, dynamic>> bookList = new();
 
-            return "ok";
+            if (File.Exists(path))
+            {
+                var json=File.ReadAllText(path);
+                bookList=JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(json);
+            }
+         
+                bookList.Add(bookDic);
+                string jsonStr=JsonSerializer.Serialize(bookList, JsonOpts);
+                File.WriteAllText(path, jsonStr );
+
+            return "新增数据成功！！！";
         }
 
         //- 编辑数据
@@ -39,10 +50,13 @@ namespace BookManager
 
 
         //- 查询所有数据
-        public string SearchBook()
+        public List<Dictionary<string, dynamic>> SearchBook()
         {
-
-            return "ok";
+            List<Dictionary<string, dynamic>> list = new();
+            if (!File.Exists(path)) return list;
+            var json=File.ReadAllText(path);
+            list=JsonSerializer.Deserialize<List<Dictionary<string, dynamic>>>(json);
+            return list;
         }
 
 

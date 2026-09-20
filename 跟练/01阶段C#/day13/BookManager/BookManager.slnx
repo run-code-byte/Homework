@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../day13/day13.csproj" Id="7568a76b-ce53-4ca3-af33-b50a37773260" />
+  <Project Path="BookManager/BookManager.csproj" />
+</Solution>

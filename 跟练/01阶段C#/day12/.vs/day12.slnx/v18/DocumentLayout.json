@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{CE3EB49F-ED0A-4183-9CCD-B17DCE289EC9}|BookManager\\BookManager.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day12\\bookmanager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE3EB49F-ED0A-4183-9CCD-B17DCE289EC9}|BookManager\\BookManager.csproj|solutionrelative:bookmanager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE3EB49F-ED0A-4183-9CCD-B17DCE289EC9}|BookManager\\BookManager.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day12\\bookmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE3EB49F-ED0A-4183-9CCD-B17DCE289EC9}|BookManager\\BookManager.csproj|solutionrelative:bookmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,22 @@
               "RelativeDocumentMoniker": "BookManager\\BookManager.cs",
               "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day12\\BookManager\\BookManager.cs",
               "RelativeToolTip": "BookManager\\BookManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvzQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T12:47:38.892Z",
+              "WhenOpened": "2026-09-19T14:33:54.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day12\\BookManager\\Program.cs",
+              "RelativeDocumentMoniker": "BookManager\\Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day12\\BookManager\\Program.cs",
+              "RelativeToolTip": "BookManager\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwEQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T14:24:59.615Z",
               "EditorCaption": ""
             }
           ]
