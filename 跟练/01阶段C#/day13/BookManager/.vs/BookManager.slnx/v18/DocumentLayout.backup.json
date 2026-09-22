@@ -3,16 +3,13 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\BookManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\sealedclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\thisclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\staticclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\interface2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,53 +24,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InterFace1.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\InterFace1.cs",
-              "RelativeDocumentMoniker": "..\\day13\\InterFace1.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\InterFace1.cs",
-              "RelativeToolTip": "..\\day13\\InterFace1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Program.cs",
+              "RelativeDocumentMoniker": "..\\day13\\Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Program.cs*",
+              "RelativeToolTip": "..\\day13\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:44:28.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SealedClass.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\SealedClass.cs",
-              "RelativeDocumentMoniker": "..\\day13\\SealedClass.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\SealedClass.cs",
-              "RelativeToolTip": "..\\day13\\SealedClass.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvx8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:25:23.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StaticClass.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\StaticClass.cs",
-              "RelativeDocumentMoniker": "..\\day13\\StaticClass.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\StaticClass.cs",
-              "RelativeToolTip": "..\\day13\\StaticClass.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvw8AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T08:02:21.647Z",
+              "WhenOpened": "2026-09-22T03:55:01.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Program.cs",
-              "RelativeDocumentMoniker": "..\\day13\\Program.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Program.cs",
-              "RelativeToolTip": "..\\day13\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Title": "ThisClass1.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\ThisClass1.cs",
+              "RelativeDocumentMoniker": "..\\day13\\ThisClass1.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\ThisClass1.cs*",
+              "RelativeToolTip": "..\\day13\\ThisClass1.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAApwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T06:54:05.693Z",
+              "WhenOpened": "2026-09-22T03:54:22.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interface2.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Interface2.cs",
+              "RelativeDocumentMoniker": "..\\day13\\Interface2.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Interface2.cs",
+              "RelativeToolTip": "..\\day13\\Interface2.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T03:23:09.039Z",
               "EditorCaption": ""
             }
           ]

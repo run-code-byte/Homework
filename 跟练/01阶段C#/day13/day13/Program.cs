@@ -4,11 +4,21 @@
     {
         static void Main(string[] args)
         {
-            A zsA=new A()
+            ThisClass1 ThisObj = new ThisClass1()
             {
-                Name = "zs"
+                N = 999
             };
-            zsA.SayHi(10);
+            //Console.WriteLine(ThisObj.GetThis()==ThisObj);
+            //ThisObj.SetN(100);
+            //Console.WriteLine(ThisObj.N);
+            ThisObj.CallFn();
+
+
+            //A zsA=new A()
+            //{
+            //    Name = "zs"
+            //};
+            //zsA.SayHi(10);
             //zsA.SayHello();
 
             //Console.WriteLine(new Random().Next(1, 10));
