@@ -1,0 +1,16 @@
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\bin\Debug\net8.0\music.exe
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\bin\Debug\net8.0\music.deps.json
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\bin\Debug\net8.0\music.runtimeconfig.json
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\bin\Debug\net8.0\music.dll
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\bin\Debug\net8.0\music.pdb
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.AssemblyInfo.cs
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.sourcelink.json
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.dll
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\refint\music.dll
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.pdb
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.genruntimeconfig.cache
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\ref\music.dll
+D:\demo\Homework\跟练\01阶段C#\day14\music\music\obj\Debug\net8.0\music.csproj.Up2Date

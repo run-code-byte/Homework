@@ -1,0 +1,16 @@
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\bin\Debug\net8.0\Car.exe
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\bin\Debug\net8.0\Car.deps.json
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\bin\Debug\net8.0\Car.runtimeconfig.json
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\bin\Debug\net8.0\Car.dll
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\bin\Debug\net8.0\Car.pdb
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.GeneratedMSBuildEditorConfig.editorconfig
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.AssemblyInfoInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.AssemblyInfo.cs
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.sourcelink.json
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.dll
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\refint\Car.dll
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.pdb
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.genruntimeconfig.cache
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\ref\Car.dll
+D:\demo\Homework\跟练\01阶段C#\day15\Car\Car\obj\Debug\net8.0\Car.csproj.Up2Date

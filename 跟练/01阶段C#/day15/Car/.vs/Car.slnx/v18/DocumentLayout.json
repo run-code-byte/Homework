@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day15\\car\\car\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|solutionrelative:car\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day15\\car\\car\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|solutionrelative:car\\carmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day15\\car\\car\\rentreturnclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|solutionrelative:car\\rentreturnclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day15\\car\\car\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|solutionrelative:car\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day15\\car\\car\\projectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBA177F-F723-4B0C-80B7-1EF3D20C56D5}|Car\\Car.csproj|solutionrelative:car\\projectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentReturnClass.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\RentReturnClass.cs",
+              "RelativeDocumentMoniker": "Car\\RentReturnClass.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\RentReturnClass.cs",
+              "RelativeToolTip": "Car\\RentReturnClass.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwEcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T12:24:50.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarManager.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\CarManager.cs",
+              "RelativeDocumentMoniker": "Car\\CarManager.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\CarManager.cs",
+              "RelativeToolTip": "Car\\CarManager.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAA7wGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T09:01:29.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\UserManager.cs",
+              "RelativeDocumentMoniker": "Car\\UserManager.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\UserManager.cs",
+              "RelativeToolTip": "Car\\UserManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T07:46:06.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectClass.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\ProjectClass.cs",
+              "RelativeDocumentMoniker": "Car\\ProjectClass.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\ProjectClass.cs",
+              "RelativeToolTip": "Car\\ProjectClass.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA0wDkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T05:44:49.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\Program.cs",
+              "RelativeDocumentMoniker": "Car\\Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day15\\Car\\Car\\Program.cs",
+              "RelativeToolTip": "Car\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwDsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T04:56:25.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

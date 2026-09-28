@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 1,
+    "CarId": 1,
+    "UserId": 1,
+    "RentTime": "2026/9/27 9:48:41",
+    "ReturnTime": "2026/9/27 22:25:08",
+    "PayMoney": 6303.772458166667
+  },
+  {
+    "Id": 2,
+    "CarId": 3,
+    "UserId": 2,
+    "RentTime": "2026/9/27 10:23:36",
+    "ReturnTime": "",
+    "PayMoney": 0
+  }
+]

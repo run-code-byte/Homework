@@ -6,10 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\thisclass1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\interface2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7568A76B-CE53-4CA3-AF33-B50A37773260}|..\\day13\\day13.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\01\u9636\u6BB5c#\\day13\\day13\\getandset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,8 +16,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAndSet.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\GetAndSet.cs",
+              "RelativeDocumentMoniker": "..\\day13\\GetAndSet.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\GetAndSet.cs",
+              "RelativeToolTip": "..\\day13\\GetAndSet.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T08:28:45.224Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -29,35 +39,9 @@
               "RelativeDocumentMoniker": "..\\day13\\Program.cs",
               "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Program.cs*",
               "RelativeToolTip": "..\\day13\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-22T03:55:01.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThisClass1.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\ThisClass1.cs",
-              "RelativeDocumentMoniker": "..\\day13\\ThisClass1.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\ThisClass1.cs*",
-              "RelativeToolTip": "..\\day13\\ThisClass1.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAApwCIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T03:54:22.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Interface2.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Interface2.cs",
-              "RelativeDocumentMoniker": "..\\day13\\Interface2.cs",
-              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\01\u9636\u6BB5C#\\day13\\day13\\Interface2.cs",
-              "RelativeToolTip": "..\\day13\\Interface2.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T03:23:09.039Z",
               "EditorCaption": ""
             }
           ]

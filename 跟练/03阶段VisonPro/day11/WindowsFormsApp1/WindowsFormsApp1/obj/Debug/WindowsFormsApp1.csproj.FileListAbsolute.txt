@@ -1,0 +1,15 @@
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DobotDll.dll
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\msvcp120.dll
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\msvcr120.dll
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Qt5Core.dll
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Qt5Network.dll
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Qt5SerialPort.dll
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
