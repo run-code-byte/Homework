@@ -13,3 +13,4 @@ D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1
 D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\demo\Homework\跟练\03阶段VisonPro\day11\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
