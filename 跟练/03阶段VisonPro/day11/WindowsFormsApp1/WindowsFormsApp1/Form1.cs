@@ -181,7 +181,7 @@ namespace WindowsFormsApp1
             // ========== 定义点位 ==========
             // A点：取料位置
             PTPCmd ptpA = new PTPCmd();
-            ptpA.ptpMode = 0;
+            ptpA.ptpMode = 1;
             ptpA.x = 223.1f;
             ptpA.y = -169.1f;
             ptpA.z = 7f;
@@ -190,7 +190,7 @@ namespace WindowsFormsApp1
 
             // B点：取料后上升抬高
             PTPCmd ptpB = new PTPCmd();
-            ptpB.ptpMode = 0;
+            ptpB.ptpMode = 1;
             ptpB.x = 223.1f;
             ptpB.y = -169.1f;
             ptpB.z = -54.8f;
@@ -198,7 +198,7 @@ namespace WindowsFormsApp1
             UInt64 cmdIndex1 = 1;
             // C点：平移到放料上方
             PTPCmd ptpC = new PTPCmd();
-            ptpC.ptpMode = 0;
+            ptpC.ptpMode = 1;
             ptpC.x = 223.1f;
             ptpC.y = -169.1f;
             ptpC.z = 37f;
@@ -206,7 +206,7 @@ namespace WindowsFormsApp1
             UInt64 cmdIndex3 = 3;
             // D点：下降到放料位置
             PTPCmd ptpD = new PTPCmd();
-            ptpD.ptpMode = 0;
+            ptpD.ptpMode = 1;
             ptpD.x = 226;
             ptpD.y = -5.8f;
             ptpD.z = 31f;
@@ -215,7 +215,7 @@ namespace WindowsFormsApp1
 
             // F点：下降到放料位置
             PTPCmd ptpF = new PTPCmd();
-            ptpD.ptpMode = 0;
+            ptpD.ptpMode = 1;
             ptpD.x = 278.8f;
             ptpD.y = 87.3f;
             ptpD.z = -38.6f;
@@ -224,7 +224,7 @@ namespace WindowsFormsApp1
 
             // G点：下降到放料位置
             PTPCmd ptpG = new PTPCmd();
-            ptpD.ptpMode = 0;
+            ptpD.ptpMode = 1;
             ptpD.x = 226;
             ptpD.y = -5.8f;
             ptpD.z = 31f;

@@ -1,2 +1,0 @@
-D:\demo\Homework\跟练\01阶段C#\day14\music\music\bin\Release\net8.0\publish\win-x86\music.pdb
-D:\demo\Homework\跟练\01阶段C#\day14\music\music\bin\Release\net8.0\publish\win-x86\music.exe

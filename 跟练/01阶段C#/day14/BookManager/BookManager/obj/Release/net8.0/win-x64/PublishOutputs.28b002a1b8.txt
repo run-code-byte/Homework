@@ -1,2 +1,0 @@
-D:\demo\Homework\跟练\01阶段C#\day14\BookManager\BookManager\bin\Release\net8.0\publish\win-x64\BookManager.pdb
-D:\demo\Homework\跟练\01阶段C#\day14\BookManager\BookManager\bin\Release\net8.0\publish\win-x64\BookManager.exe
