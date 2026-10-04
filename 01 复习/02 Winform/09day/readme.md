@@ -32,7 +32,7 @@ Sql
 - `delete from 表名 where 条件`
 - `update 表名 set 字段=新值... where 条件`
 
-### 代码操作数据库
+### 代码操作数据库-day09
 
 - 安装使用`MysqlConnector`第三方库
 

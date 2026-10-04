@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9928140E-3DBF-4767-A58A-79C3687903FC}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,64 +31,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookShow.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\BookShow.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs",
-              "RelativeToolTip": "WinFormsApp1\\Book\\BookShow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T14:43:51.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Mysql.cs",
               "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Mysql.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Mysql.cs",
               "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Mysql.cs",
               "RelativeToolTip": "WinFormsApp1\\Mysql.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T14:22:11.795Z",
+              "WhenOpened": "2026-10-04T06:33:17.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookShow.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\BookShow.cs",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs*",
+              "RelativeToolTip": "WinFormsApp1\\Book\\BookShow.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T06:26:23.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T14:11:38.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookAddAndEdit.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookAddAndEdit.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "WinFormsApp1\\Book\\BookAddAndEdit.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T13:52:35.982Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "BookShow.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Book\\BookShow.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T13:52:03.234Z",
+              "WhenOpened": "2026-10-04T06:23:58.743Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
@@ -108,7 +75,7 @@
               "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "WinFormsApp1\\Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-03T13:47:46.656Z",
+              "WhenOpened": "2026-10-04T06:23:56.577Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             }
           ]

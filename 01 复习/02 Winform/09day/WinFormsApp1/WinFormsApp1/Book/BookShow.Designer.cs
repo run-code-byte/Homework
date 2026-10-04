@@ -28,12 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "BookShow";
+            label1 = new AntdUI.Label();
+            button1 = new AntdUI.Button();
+            table1 = new AntdUI.Table();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.Dock = DockStyle.Top;
+            label1.Font = new Font("Microsoft YaHei UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label1.Location = new Point(0, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(800, 65);
+            label1.TabIndex = 1;
+            label1.Text = "图书展示";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(41, 71);
+            button1.Name = "button1";
+            button1.Size = new Size(115, 39);
+            button1.TabIndex = 2;
+            button1.Text = "新增图书";
+            // 
+            // table1
+            // 
+            table1.Gap = 12;
+            table1.Location = new Point(28, 116);
+            table1.Name = "table1";
+            table1.Size = new Size(743, 311);
+            table1.TabIndex = 3;
+            table1.Text = "table1";
+            // 
+            // BookShow
+            // 
+            AutoScaleDimensions = new SizeF(7F, 17F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(table1);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Name = "BookShow";
+            Text = "BookShow";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private AntdUI.Label label1;
+        private AntdUI.Button button1;
+        private AntdUI.Table table1;
     }
 }
