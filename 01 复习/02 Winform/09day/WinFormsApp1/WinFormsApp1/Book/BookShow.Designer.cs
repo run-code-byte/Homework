@@ -51,6 +51,7 @@
             button1.Size = new Size(115, 39);
             button1.TabIndex = 2;
             button1.Text = "新增图书";
+            button1.Click += button1_Click;
             // 
             // table1
             // 
