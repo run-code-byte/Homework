@@ -20,19 +20,30 @@ namespace WinFormsApp1
         {
             this.Database = database;
         }
-        public async void ConAndHandler(string sql,Action<MySqlCommand> handlerCall)
+        //public async void ConAndHandler(string sql,Action<MySqlCommand> handlerCall)
+        //{
+        //    ConnStr = $"server={Server};port={Port};database={Database};uid={Uid};password={Password};charset={Charset}";
+        //    using(MySqlConnection Conn = new MySqlConnection(ConnStr))
+        //    {
+        //        await Conn.OpenAsync();
+        //        using(MySqlCommand Cmd = new MySqlCommand(sql, Conn))
+        //        {
+        //            handlerCall(Cmd);
+        //        }
+        //    }
+        //}
+        public async Task<bool> ConAndHandler(string sql, Func<MySqlCommand, bool> handlerCall)
         {
             ConnStr = $"server={Server};port={Port};database={Database};uid={Uid};password={Password};charset={Charset}";
-            using(MySqlConnection Conn = new MySqlConnection(ConnStr))
+            using (MySqlConnection Conn = new MySqlConnection(ConnStr))
             {
                 await Conn.OpenAsync();
-                using(MySqlCommand Cmd = new MySqlCommand(sql, Conn))
+                using (MySqlCommand Cmd = new MySqlCommand(sql, Conn))
                 {
-                    handlerCall(Cmd);
+                    return handlerCall(Cmd);
                 }
             }
         }
-
 
     }
 }

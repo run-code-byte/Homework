@@ -7,6 +7,12 @@
     <Compile Update="Book\BookShow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Book\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Book\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

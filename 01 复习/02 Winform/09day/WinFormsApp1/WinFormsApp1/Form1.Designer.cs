@@ -31,6 +31,7 @@
             label1 = new AntdUI.Label();
             button1 = new AntdUI.Button();
             button2 = new AntdUI.Button();
+            label2 = new AntdUI.Label();
             SuspendLayout();
             // 
             // label1
@@ -61,11 +62,20 @@
             button2.TabIndex = 1;
             button2.Text = "车辆租还系统";
             // 
+            // label2
+            // 
+            label2.Location = new Point(291, 254);
+            label2.Name = "label2";
+            label2.Size = new Size(108, 26);
+            label2.TabIndex = 2;
+            label2.Text = "";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(984, 611);
+            Controls.Add(label2);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
@@ -79,5 +89,6 @@
         private AntdUI.Label label1;
         private AntdUI.Button button1;
         private AntdUI.Button button2;
+        private AntdUI.Label label2;
     }
 }

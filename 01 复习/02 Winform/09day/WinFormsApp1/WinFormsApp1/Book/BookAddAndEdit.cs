@@ -35,10 +35,10 @@ namespace WinFormsApp1.Book
             ShowBook();
         }
 
-        private void ShowBook()
+        private async void ShowBook()
         {
             string sql = "select * from book where id=@id";
-            Mysql.ConAndHandler(sql, Cmd =>
+            await Mysql.ConAndHandler(sql, Cmd =>
             {
                 Cmd.Parameters.AddWithValue("@id", Id);
                 using (var reader = Cmd.ExecuteReader())
@@ -47,7 +47,7 @@ namespace WinFormsApp1.Book
                     {
                         MessageBox.Show("未找到该图书");
                         this.Close();
-                        return;
+                        return true;
                     }
                     else
                     {
@@ -57,18 +57,19 @@ namespace WinFormsApp1.Book
                         //input3.Text = reader["label"].ToString().Replace("|", "\n");
                         input1.Text = reader.GetString("name");
                         input2.Text = reader.GetString("author");
-                        inputNumber1.Text = reader.GetDouble("price").ToString();
+                        inputNumber1.Value = (decimal)reader.GetDouble("price");
                         input3.Text = reader.GetString("label").Replace("|", "\n");
                     }
                 }
+                return true;
             });
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
             string Name = input1.Text;
             string Author = input2.Text;
-            double Price = double.Parse(inputNumber1.Text);
+            double Price = double.Parse(inputNumber1.Value.ToString());
             string Label = input3.Text.Replace("\n","|");
             string sql = "";
             if (Title=="新增")
@@ -81,7 +82,7 @@ namespace WinFormsApp1.Book
             }
            
 
-            Mysql.ConAndHandler(sql, Cmd =>
+            await Mysql.ConAndHandler(sql, Cmd =>
             {
                 Cmd.Parameters.AddWithValue("@name", Name);
                 Cmd.Parameters.AddWithValue("@author", Author);
@@ -101,6 +102,7 @@ namespace WinFormsApp1.Book
                 {
                     MessageBox.Show(this.Title + "失败");
                 }
+                return true;
             });
         }
     }
