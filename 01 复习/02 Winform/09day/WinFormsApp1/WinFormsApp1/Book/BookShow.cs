@@ -18,7 +18,8 @@ namespace WinFormsApp1.Book
         {
             InitializeComponent();
             ShowData();
-            
+            table1.CellClick += Table1_CellClick;
+            table1.CellButtonClick += Table1_CellButtonClick;
 
 
         }
@@ -131,8 +132,10 @@ namespace WinFormsApp1.Book
         }
         private async void Del(string id)
         {
-            DialogResult res = MessageBox.Show("确定要删除吗？", "删除操作", MessageBoxButtons.YesNo);
-            if (res != DialogResult.Yes) return;
+            //DialogResult res = MessageBox.Show("确定要删除吗？", "删除操作", MessageBoxButtons.YesNo);
+            DialogResult res =AntdUI.Modal.open(new AntdUI.Modal.Config(this, "删除提示", "你确定要删除吗？",AntdUI.TType.Warn) { OkText="删除"});
+
+            if (res == DialogResult.No) return;
 
             await Mysql.ConAndHandler("delete from book where id=@id", Cmd =>
             {
@@ -161,8 +164,7 @@ namespace WinFormsApp1.Book
                 Ada.Fill(dt);
                 table1.DataSource = dt;
                 SetColumn();
-                table1.CellClick += Table1_CellClick;
-                table1.CellButtonClick += Table1_CellButtonClick;
+               
                 return true;
             });
         }

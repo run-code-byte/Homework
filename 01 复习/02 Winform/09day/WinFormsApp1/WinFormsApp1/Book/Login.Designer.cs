@@ -46,6 +46,7 @@
             label1.Name = "label1";
             label1.Size = new Size(621, 65);
             label1.TabIndex = 1;
+            label1.TabStop = false;
             label1.Text = "登录";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -63,7 +64,7 @@
             button1.Location = new Point(219, 252);
             button1.Name = "button1";
             button1.Size = new Size(176, 57);
-            button1.TabIndex = 3;
+            button1.TabIndex = 2;
             button1.Text = "登录";
             button1.Click += button1_Click;
             // 
@@ -73,7 +74,7 @@
             input1.Name = "input1";
             input1.PlaceholderText = "请输入用户名";
             input1.Size = new Size(295, 52);
-            input1.TabIndex = 4;
+            input1.TabIndex = 0;
             // 
             // label3
             // 
@@ -90,7 +91,7 @@
             input2.Name = "input2";
             input2.PlaceholderText = "请输入密码";
             input2.Size = new Size(295, 52);
-            input2.TabIndex = 4;
+            input2.TabIndex = 1;
             // 
             // button2
             // 
@@ -107,6 +108,7 @@
             label4.Name = "label4";
             label4.Size = new Size(134, 38);
             label4.TabIndex = 6;
+            label4.TabStop = false;
             label4.Text = "没有账号请先注册==>";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 

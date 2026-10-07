@@ -14,7 +14,7 @@
 
 作业
 
-![计算作业](readme.assets/计算作业.gif)
+![计算作业](02winformHWreadme.assets/计算作业.gif)
 
 ## day05 事件、窗体操作、第三方库
 
@@ -35,7 +35,7 @@
 
 作业图书新增界面
 
-![1791124745002](readme.assets/1791124745002.png)
+![1791124745002](02winformHWreadme.assets/1791124745002.png)
 
 图书新增界面和编辑界面
 

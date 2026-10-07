@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookaddandedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\mysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\09day\\winformsapp1\\winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC150CE2-BC7F-BB20-899B-A29BED553BB8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\book\\bookshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,107 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookAddAndEdit.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "RelativeToolTip": "WinFormsApp1\\Book\\BookAddAndEdit.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:21:22.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookShow.cs",
+              "DocumentIndex": 0,
+              "Title": "BookShow.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Book\\BookShow.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs",
-              "RelativeToolTip": "WinFormsApp1\\Book\\BookShow.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAgwKQAAABBAAAAAAAAAA==",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WinFormsApp1\\Book\\BookShow.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:16:23.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Mysql.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Mysql.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Mysql.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Mysql.cs",
-              "RelativeToolTip": "WinFormsApp1\\Mysql.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T14:07:25.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Register.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\Register.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Register.cs",
-              "RelativeToolTip": "WinFormsApp1\\Book\\Register.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T13:05:21.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Register.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\Register.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Register.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "WinFormsApp1\\Book\\Register.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T12:53:59.994Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\Login.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Login.cs",
-              "RelativeToolTip": "WinFormsApp1\\Book\\Login.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T06:45:31.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Book\\Login.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Book\\Login.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "WinFormsApp1\\Book\\Login.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T06:38:41.39Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\09day\\WinFormsApp1\\WinFormsApp1\\Form1.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T06:38:11.855Z",
+              "WhenOpened": "2026-10-07T13:32:20.702Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             }
           ]
