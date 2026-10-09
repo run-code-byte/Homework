@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "新建配置文件",
+    "Projects": [
+      {
+        "Path": "MyTCPServer\\MyTCPServer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "WinFormsApp1\\WinFormsApp1.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

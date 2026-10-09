@@ -20,10 +20,14 @@ AntdUI.Message.warn(this,"未登录，请点击左上角登录！",autoClose:1);
 
 
 
-数据绑定
+## 数据绑定
+
+简单绑定：TextBox、label、CheckBox
 
 把控件的属性和对象的属性进行绑定
 
 注意不是对象的字段，一定是set的
 
 对象的类要实现接口`INotifyPropertyChanged`
+
+复杂绑定：DataGridView

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\\u62D3\u5C55\\Order\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79070C8C-1E32-4BC9-A533-F6EA090D3E56}|Order\\Order.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\\u62D3\u5C55\\order\\order\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79070C8C-1E32-4BC9-A533-F6EA090D3E56}|Order\\Order.csproj|solutionrelative:order\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFF04170-18FE-9B5B-94ED-6B5737009CDF}|Order\\Order.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\\u62D3\u5C55\\order\\order\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF04170-18FE-9B5B-94ED-6B5737009CDF}|Order\\Order.csproj|solutionrelative:order\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,14 +24,10 @@
               "RelativeDocumentMoniker": "Order\\Program.cs",
               "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\\u62D3\u5C55\\Order\\Order\\Program.cs",
               "RelativeToolTip": "Order\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T01:15:20.54Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Chatroom/">
+    <Project Path="WinFormsApp2/WinFormsApp2.csproj" />
+  </Folder>
+  <Project Path="MyTCPServer/MyTCPServer.csproj" />
+  <Project Path="WinFormsApp1/WinFormsApp1.csproj" />
+</Solution>
