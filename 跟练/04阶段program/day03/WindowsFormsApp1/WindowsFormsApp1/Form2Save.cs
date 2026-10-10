@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
         private void Form2Save_FormClosed(object sender, FormClosedEventArgs e)
         {
-            throw new NotImplementedException();
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
         private CogToolBlock CTB { get ; set; }
         private ICogAcqFifo Acq {  get; set; }

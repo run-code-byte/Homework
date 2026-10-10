@@ -23,7 +23,8 @@ namespace WindowsFormsApp1
             //Application.Run(new Form2Result());
             //Application.Run(new Form2Save());
             //Application.Run(new Form3ShowVpp());
-            Application.Run(new Form4Run());
+            //Application.Run(new Form4Run());
+            Application.Run(new Form5PMA());
         }
     }
 }

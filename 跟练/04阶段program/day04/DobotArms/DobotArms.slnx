@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../InspectProject/InspectProject.csproj" />
+  <Project Path="DobotArms.csproj" />
+</Solution>

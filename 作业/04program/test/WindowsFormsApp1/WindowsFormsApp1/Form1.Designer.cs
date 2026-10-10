@@ -94,8 +94,6 @@
             this.button22 = new AntdUI.Button();
             this.button21 = new AntdUI.Button();
             this.button17 = new AntdUI.Button();
-            this.button16 = new AntdUI.Button();
-            this.button15 = new AntdUI.Button();
             this.select4 = new AntdUI.Select();
             this.select3 = new AntdUI.Select();
             this.label39 = new AntdUI.Label();
@@ -190,16 +188,6 @@
             this.button42 = new AntdUI.Button();
             this.label60 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.input4 = new AntdUI.Input();
-            this.select12 = new AntdUI.Select();
-            this.label71 = new AntdUI.Label();
-            this.label72 = new System.Windows.Forms.Label();
-            this.button54 = new AntdUI.Button();
-            this.button53 = new AntdUI.Button();
-            this.label69 = new AntdUI.Label();
-            this.label70 = new AntdUI.Label();
-            this.select9 = new AntdUI.Select();
             this.panel18 = new System.Windows.Forms.Panel();
             this.input5 = new AntdUI.Input();
             this.select11 = new AntdUI.Select();
@@ -208,14 +196,6 @@
             this.label74 = new AntdUI.Label();
             this.label75 = new AntdUI.Label();
             this.label76 = new System.Windows.Forms.Label();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.input6 = new AntdUI.Input();
-            this.select14 = new AntdUI.Select();
-            this.label77 = new AntdUI.Label();
-            this.select15 = new AntdUI.Select();
-            this.label78 = new AntdUI.Label();
-            this.label79 = new AntdUI.Label();
-            this.label80 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
             this.input7 = new AntdUI.Input();
             this.select16 = new AntdUI.Select();
@@ -224,6 +204,28 @@
             this.label82 = new AntdUI.Label();
             this.label83 = new AntdUI.Label();
             this.label84 = new System.Windows.Forms.Label();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.input6 = new AntdUI.Input();
+            this.select14 = new AntdUI.Select();
+            this.label77 = new AntdUI.Label();
+            this.select15 = new AntdUI.Select();
+            this.label78 = new AntdUI.Label();
+            this.label79 = new AntdUI.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.input4 = new AntdUI.Input();
+            this.select9 = new AntdUI.Select();
+            this.label70 = new AntdUI.Label();
+            this.select12 = new AntdUI.Select();
+            this.label69 = new AntdUI.Label();
+            this.label71 = new AntdUI.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.button54 = new AntdUI.Button();
+            this.button53 = new AntdUI.Button();
+            this.label85 = new AntdUI.Label();
+            this.select18 = new AntdUI.Select();
+            this.label86 = new AntdUI.Label();
+            this.select19 = new AntdUI.Select();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -248,10 +250,10 @@
             this.panel15.SuspendLayout();
             this.panel13.SuspendLayout();
             this.tabPage5.SuspendLayout();
-            this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
-            this.panel19.SuspendLayout();
             this.panel20.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.panel17.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -776,9 +778,9 @@
             this.panel5.Controls.Add(this.button22);
             this.panel5.Controls.Add(this.button21);
             this.panel5.Controls.Add(this.button17);
-            this.panel5.Controls.Add(this.button16);
-            this.panel5.Controls.Add(this.button15);
             this.panel5.Controls.Add(this.select4);
+            this.panel5.Controls.Add(this.select19);
+            this.panel5.Controls.Add(this.select18);
             this.panel5.Controls.Add(this.select3);
             this.panel5.Controls.Add(this.label39);
             this.panel5.Controls.Add(this.label35);
@@ -789,6 +791,8 @@
             this.panel5.Controls.Add(this.label36);
             this.panel5.Controls.Add(this.label31);
             this.panel5.Controls.Add(this.label30);
+            this.panel5.Controls.Add(this.label86);
+            this.panel5.Controls.Add(this.label85);
             this.panel5.Controls.Add(this.label43);
             this.panel5.Controls.Add(this.label44);
             this.panel5.Location = new System.Drawing.Point(685, 50);
@@ -815,7 +819,7 @@
             // 
             // button31
             // 
-            this.button31.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button31.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button31.Location = new System.Drawing.Point(526, 24);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(64, 64);
@@ -824,7 +828,7 @@
             // 
             // button30
             // 
-            this.button30.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button30.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button30.Location = new System.Drawing.Point(345, 24);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(64, 64);
@@ -833,7 +837,7 @@
             // 
             // button29
             // 
-            this.button29.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button29.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button29.Location = new System.Drawing.Point(255, 24);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(64, 64);
@@ -842,7 +846,7 @@
             // 
             // button28
             // 
-            this.button28.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button28.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button28.Location = new System.Drawing.Point(175, 24);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(64, 64);
@@ -851,7 +855,7 @@
             // 
             // button27
             // 
-            this.button27.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button27.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button27.Location = new System.Drawing.Point(94, 24);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(64, 64);
@@ -860,7 +864,7 @@
             // 
             // button26
             // 
-            this.button26.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button26.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button26.Location = new System.Drawing.Point(14, 24);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(64, 64);
@@ -889,7 +893,7 @@
             // 
             // button18
             // 
-            this.button18.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button18.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button18.Location = new System.Drawing.Point(431, 374);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(129, 64);
@@ -898,7 +902,7 @@
             // 
             // button20
             // 
-            this.button20.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button20.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button20.Location = new System.Drawing.Point(592, 457);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(173, 64);
@@ -907,7 +911,7 @@
             // 
             // button19
             // 
-            this.button19.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button19.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button19.Location = new System.Drawing.Point(592, 374);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(173, 64);
@@ -916,7 +920,7 @@
             // 
             // button25
             // 
-            this.button25.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button25.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button25.Location = new System.Drawing.Point(621, 81);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(144, 64);
@@ -925,7 +929,7 @@
             // 
             // button24
             // 
-            this.button24.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button24.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button24.Location = new System.Drawing.Point(459, 81);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(144, 64);
@@ -934,7 +938,7 @@
             // 
             // button23
             // 
-            this.button23.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button23.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button23.Location = new System.Drawing.Point(363, 81);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(90, 64);
@@ -943,7 +947,7 @@
             // 
             // button22
             // 
-            this.button22.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button22.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button22.Location = new System.Drawing.Point(198, 81);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(159, 64);
@@ -952,7 +956,7 @@
             // 
             // button21
             // 
-            this.button21.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button21.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button21.Location = new System.Drawing.Point(33, 81);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(159, 64);
@@ -961,34 +965,16 @@
             // 
             // button17
             // 
-            this.button17.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.button17.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button17.Location = new System.Drawing.Point(592, 294);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(173, 64);
             this.button17.TabIndex = 3;
             this.button17.Text = "定点运动";
             // 
-            // button16
-            // 
-            this.button16.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
-            this.button16.Location = new System.Drawing.Point(431, 294);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(129, 64);
-            this.button16.TabIndex = 3;
-            this.button16.Text = "目标Z";
-            // 
-            // button15
-            // 
-            this.button15.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
-            this.button15.Location = new System.Drawing.Point(289, 294);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(136, 64);
-            this.button15.TabIndex = 3;
-            this.button15.Text = "目标Y";
-            // 
             // select4
             // 
-            this.select4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.select4.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.select4.IconRatio = 0.9F;
             this.select4.Location = new System.Drawing.Point(118, 374);
             this.select4.Name = "select4";
@@ -1002,7 +988,7 @@
             this.select3.IconRatio = 0.9F;
             this.select3.Location = new System.Drawing.Point(118, 294);
             this.select3.Name = "select3";
-            this.select3.Size = new System.Drawing.Size(165, 64);
+            this.select3.Size = new System.Drawing.Size(87, 64);
             this.select3.TabIndex = 2;
             // 
             // label39
@@ -1043,7 +1029,7 @@
             // 
             // label37
             // 
-            this.label37.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label37.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label37.Location = new System.Drawing.Point(431, 527);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(79, 64);
@@ -1053,7 +1039,7 @@
             // 
             // label33
             // 
-            this.label33.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label33.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label33.Location = new System.Drawing.Point(431, 457);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(79, 64);
@@ -1063,7 +1049,7 @@
             // 
             // label36
             // 
-            this.label36.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label36.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label36.Location = new System.Drawing.Point(33, 527);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(79, 64);
@@ -1073,7 +1059,7 @@
             // 
             // label31
             // 
-            this.label31.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label31.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label31.Location = new System.Drawing.Point(33, 457);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(79, 64);
@@ -1083,7 +1069,7 @@
             // 
             // label30
             // 
-            this.label30.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label30.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label30.Location = new System.Drawing.Point(33, 374);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(79, 64);
@@ -1093,7 +1079,7 @@
             // 
             // label43
             // 
-            this.label43.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label43.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label43.Location = new System.Drawing.Point(33, 294);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(79, 64);
@@ -1151,7 +1137,7 @@
             // 
             this.button14.BorderWidth = 1F;
             this.button14.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button14.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button14.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button14.Location = new System.Drawing.Point(344, 506);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(185, 55);
@@ -1162,7 +1148,7 @@
             // 
             this.button13.BorderWidth = 1F;
             this.button13.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button13.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button13.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button13.Location = new System.Drawing.Point(153, 506);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(185, 55);
@@ -1173,7 +1159,7 @@
             // 
             this.button12.BorderWidth = 1F;
             this.button12.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button12.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button12.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button12.Location = new System.Drawing.Point(396, 185);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(142, 55);
@@ -1184,7 +1170,7 @@
             // 
             this.button11.BorderWidth = 1F;
             this.button11.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button11.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button11.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button11.Location = new System.Drawing.Point(209, 185);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(142, 55);
@@ -1195,7 +1181,7 @@
             // 
             this.button10.BorderWidth = 1F;
             this.button10.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button10.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button10.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button10.Location = new System.Drawing.Point(19, 185);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(142, 55);
@@ -1206,7 +1192,7 @@
             // 
             this.button9.BorderWidth = 1F;
             this.button9.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button9.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button9.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button9.Location = new System.Drawing.Point(297, 80);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(241, 55);
@@ -1217,7 +1203,7 @@
             // 
             this.button8.BorderWidth = 1F;
             this.button8.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button8.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button8.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button8.Location = new System.Drawing.Point(19, 80);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(241, 55);
@@ -1260,7 +1246,7 @@
             // 
             // label28
             // 
-            this.label28.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label28.Font = new System.Drawing.Font("宋体", 12F);
             this.label28.Location = new System.Drawing.Point(31, 506);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(130, 64);
@@ -1270,7 +1256,7 @@
             // 
             // label27
             // 
-            this.label27.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label27.Font = new System.Drawing.Font("宋体", 12F);
             this.label27.Location = new System.Drawing.Point(31, 412);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(130, 64);
@@ -1280,7 +1266,7 @@
             // 
             // label34
             // 
-            this.label34.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label34.Font = new System.Drawing.Font("宋体", 12F);
             this.label34.Location = new System.Drawing.Point(31, 317);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(130, 64);
@@ -1783,7 +1769,7 @@
             this.panel14.Controls.Add(this.label55);
             this.panel14.Location = new System.Drawing.Point(8, 80);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(1516, 501);
+            this.panel14.Size = new System.Drawing.Size(1508, 501);
             this.panel14.TabIndex = 2;
             // 
             // table1
@@ -1801,7 +1787,7 @@
             this.label55.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label55.Location = new System.Drawing.Point(0, 0);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(1514, 51);
+            this.label55.Size = new System.Drawing.Size(1506, 51);
             this.label55.TabIndex = 0;
             this.label55.Text = "日志表格";
             this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1820,7 +1806,7 @@
             this.panel16.Controls.Add(this.label59);
             this.panel16.Location = new System.Drawing.Point(8, 584);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(734, 134);
+            this.panel16.Size = new System.Drawing.Size(725, 132);
             this.panel16.TabIndex = 2;
             // 
             // label68
@@ -1902,7 +1888,7 @@
             this.label59.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label59.Location = new System.Drawing.Point(0, 0);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(732, 38);
+            this.label59.Size = new System.Drawing.Size(723, 38);
             this.label59.TabIndex = 0;
             this.label59.Text = "统计汇总";
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1912,9 +1898,9 @@
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel15.Controls.Add(this.label56);
             this.panel15.Controls.Add(this.button41);
-            this.panel15.Location = new System.Drawing.Point(787, 584);
+            this.panel15.Location = new System.Drawing.Point(784, 584);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(737, 134);
+            this.panel15.Size = new System.Drawing.Size(731, 132);
             this.panel15.TabIndex = 2;
             // 
             // label56
@@ -1924,7 +1910,7 @@
             this.label56.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label56.Location = new System.Drawing.Point(0, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(735, 38);
+            this.label56.Size = new System.Drawing.Size(729, 38);
             this.label56.TabIndex = 0;
             this.label56.Text = "报表导出";
             this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1953,7 +1939,7 @@
             this.panel13.Controls.Add(this.label60);
             this.panel13.Location = new System.Drawing.Point(8, 6);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(1510, 68);
+            this.panel13.Size = new System.Drawing.Size(1507, 68);
             this.panel13.TabIndex = 2;
             // 
             // datePicker2
@@ -2023,115 +2009,6 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "系统设置";
             this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // panel17
-            // 
-            this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel17.Controls.Add(this.input4);
-            this.panel17.Controls.Add(this.select9);
-            this.panel17.Controls.Add(this.label70);
-            this.panel17.Controls.Add(this.select12);
-            this.panel17.Controls.Add(this.label69);
-            this.panel17.Controls.Add(this.label71);
-            this.panel17.Controls.Add(this.label72);
-            this.panel17.Location = new System.Drawing.Point(122, 7);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(619, 302);
-            this.panel17.TabIndex = 2;
-            // 
-            // input4
-            // 
-            this.input4.Location = new System.Drawing.Point(125, 62);
-            this.input4.Name = "input4";
-            this.input4.PlaceholderText = "端口";
-            this.input4.Size = new System.Drawing.Size(442, 52);
-            this.input4.TabIndex = 5;
-            // 
-            // select12
-            // 
-            this.select12.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select12.Location = new System.Drawing.Point(125, 130);
-            this.select12.Name = "select12";
-            this.select12.PlaceholderText = "端口";
-            this.select12.Size = new System.Drawing.Size(442, 52);
-            this.select12.TabIndex = 4;
-            // 
-            // label71
-            // 
-            this.label71.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label71.Location = new System.Drawing.Point(49, 62);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(65, 52);
-            this.label71.TabIndex = 3;
-            this.label71.Text = "IP地址";
-            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label72
-            // 
-            this.label72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label72.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label72.Font = new System.Drawing.Font("微软雅黑", 13.8F);
-            this.label72.Location = new System.Drawing.Point(0, 0);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(617, 50);
-            this.label72.TabIndex = 0;
-            this.label72.Text = "Modbus传送带配置";
-            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // button54
-            // 
-            this.button54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button54.DefaultBack = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
-            this.button54.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(91)))), ((int)(((byte)(207)))));
-            this.button54.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button54.Location = new System.Drawing.Point(578, 664);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(180, 58);
-            this.button54.TabIndex = 1;
-            this.button54.Text = "保存参数";
-            this.button54.ToggleBack = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            // 
-            // button53
-            // 
-            this.button53.BorderWidth = 1F;
-            this.button53.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(119)))), ((int)(((byte)(255)))));
-            this.button53.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.button53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
-            this.button53.Location = new System.Drawing.Point(778, 662);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(184, 58);
-            this.button53.TabIndex = 1;
-            this.button53.Text = "加载参数";
-            // 
-            // label69
-            // 
-            this.label69.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label69.Location = new System.Drawing.Point(20, 130);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(94, 52);
-            this.label69.TabIndex = 3;
-            this.label69.Text = "启停寄存器";
-            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label70
-            // 
-            this.label70.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label70.Location = new System.Drawing.Point(20, 209);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(94, 52);
-            this.label70.TabIndex = 3;
-            this.label70.Text = "速度寄存器";
-            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // select9
-            // 
-            this.select9.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select9.Location = new System.Drawing.Point(125, 209);
-            this.select9.Name = "select9";
-            this.select9.PlaceholderText = "端口";
-            this.select9.Size = new System.Drawing.Size(442, 52);
-            this.select9.TabIndex = 4;
             // 
             // panel18
             // 
@@ -2217,89 +2094,6 @@
             this.label76.Text = "机械臂配置";
             this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel19
-            // 
-            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Controls.Add(this.input6);
-            this.panel19.Controls.Add(this.select14);
-            this.panel19.Controls.Add(this.label77);
-            this.panel19.Controls.Add(this.select15);
-            this.panel19.Controls.Add(this.label78);
-            this.panel19.Controls.Add(this.label79);
-            this.panel19.Controls.Add(this.label80);
-            this.panel19.Location = new System.Drawing.Point(122, 332);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(619, 302);
-            this.panel19.TabIndex = 2;
-            // 
-            // input6
-            // 
-            this.input6.Location = new System.Drawing.Point(125, 62);
-            this.input6.Name = "input6";
-            this.input6.PlaceholderText = "端口";
-            this.input6.Size = new System.Drawing.Size(442, 52);
-            this.input6.TabIndex = 5;
-            // 
-            // select14
-            // 
-            this.select14.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select14.Location = new System.Drawing.Point(125, 209);
-            this.select14.Name = "select14";
-            this.select14.PlaceholderText = "端口";
-            this.select14.Size = new System.Drawing.Size(442, 52);
-            this.select14.TabIndex = 4;
-            // 
-            // label77
-            // 
-            this.label77.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label77.Location = new System.Drawing.Point(0, 209);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(114, 52);
-            this.label77.TabIndex = 3;
-            this.label77.Text = "拍照等待时间";
-            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // select15
-            // 
-            this.select15.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select15.Location = new System.Drawing.Point(125, 130);
-            this.select15.Name = "select15";
-            this.select15.PlaceholderText = "端口";
-            this.select15.Size = new System.Drawing.Size(442, 52);
-            this.select15.TabIndex = 4;
-            // 
-            // label78
-            // 
-            this.label78.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label78.Location = new System.Drawing.Point(3, 130);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(111, 52);
-            this.label78.TabIndex = 3;
-            this.label78.Text = "光电触发后停";
-            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label79
-            // 
-            this.label79.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label79.Location = new System.Drawing.Point(3, 62);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(111, 52);
-            this.label79.TabIndex = 3;
-            this.label79.Text = "匹配分数阈值";
-            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label80
-            // 
-            this.label80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label80.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label80.Font = new System.Drawing.Font("微软雅黑", 13.8F);
-            this.label80.Location = new System.Drawing.Point(0, 0);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(617, 50);
-            this.label80.TabIndex = 0;
-            this.label80.Text = "视觉参数配置";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -2383,6 +2177,236 @@
             this.label84.Text = "数据库配置";
             this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel19
+            // 
+            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel19.Controls.Add(this.input6);
+            this.panel19.Controls.Add(this.select14);
+            this.panel19.Controls.Add(this.label77);
+            this.panel19.Controls.Add(this.select15);
+            this.panel19.Controls.Add(this.label78);
+            this.panel19.Controls.Add(this.label79);
+            this.panel19.Controls.Add(this.label80);
+            this.panel19.Location = new System.Drawing.Point(122, 332);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(619, 302);
+            this.panel19.TabIndex = 2;
+            // 
+            // input6
+            // 
+            this.input6.Location = new System.Drawing.Point(125, 62);
+            this.input6.Name = "input6";
+            this.input6.PlaceholderText = "端口";
+            this.input6.Size = new System.Drawing.Size(442, 52);
+            this.input6.TabIndex = 5;
+            // 
+            // select14
+            // 
+            this.select14.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.select14.Location = new System.Drawing.Point(125, 209);
+            this.select14.Name = "select14";
+            this.select14.PlaceholderText = "端口";
+            this.select14.Size = new System.Drawing.Size(442, 52);
+            this.select14.TabIndex = 4;
+            // 
+            // label77
+            // 
+            this.label77.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label77.Location = new System.Drawing.Point(0, 209);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(114, 52);
+            this.label77.TabIndex = 3;
+            this.label77.Text = "拍照等待时间";
+            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // select15
+            // 
+            this.select15.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.select15.Location = new System.Drawing.Point(125, 130);
+            this.select15.Name = "select15";
+            this.select15.PlaceholderText = "端口";
+            this.select15.Size = new System.Drawing.Size(442, 52);
+            this.select15.TabIndex = 4;
+            // 
+            // label78
+            // 
+            this.label78.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label78.Location = new System.Drawing.Point(3, 130);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(111, 52);
+            this.label78.TabIndex = 3;
+            this.label78.Text = "光电触发后停";
+            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label79
+            // 
+            this.label79.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label79.Location = new System.Drawing.Point(3, 62);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(111, 52);
+            this.label79.TabIndex = 3;
+            this.label79.Text = "匹配分数阈值";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label80
+            // 
+            this.label80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label80.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label80.Font = new System.Drawing.Font("微软雅黑", 13.8F);
+            this.label80.Location = new System.Drawing.Point(0, 0);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(617, 50);
+            this.label80.TabIndex = 0;
+            this.label80.Text = "视觉参数配置";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel17
+            // 
+            this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel17.Controls.Add(this.input4);
+            this.panel17.Controls.Add(this.select9);
+            this.panel17.Controls.Add(this.label70);
+            this.panel17.Controls.Add(this.select12);
+            this.panel17.Controls.Add(this.label69);
+            this.panel17.Controls.Add(this.label71);
+            this.panel17.Controls.Add(this.label72);
+            this.panel17.Location = new System.Drawing.Point(122, 7);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(619, 302);
+            this.panel17.TabIndex = 2;
+            // 
+            // input4
+            // 
+            this.input4.Location = new System.Drawing.Point(125, 62);
+            this.input4.Name = "input4";
+            this.input4.PlaceholderText = "端口";
+            this.input4.Size = new System.Drawing.Size(442, 52);
+            this.input4.TabIndex = 5;
+            // 
+            // select9
+            // 
+            this.select9.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.select9.Location = new System.Drawing.Point(125, 209);
+            this.select9.Name = "select9";
+            this.select9.PlaceholderText = "端口";
+            this.select9.Size = new System.Drawing.Size(442, 52);
+            this.select9.TabIndex = 4;
+            // 
+            // label70
+            // 
+            this.label70.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label70.Location = new System.Drawing.Point(20, 209);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(94, 52);
+            this.label70.TabIndex = 3;
+            this.label70.Text = "速度寄存器";
+            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // select12
+            // 
+            this.select12.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.select12.Location = new System.Drawing.Point(125, 130);
+            this.select12.Name = "select12";
+            this.select12.PlaceholderText = "端口";
+            this.select12.Size = new System.Drawing.Size(442, 52);
+            this.select12.TabIndex = 4;
+            // 
+            // label69
+            // 
+            this.label69.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label69.Location = new System.Drawing.Point(20, 130);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(94, 52);
+            this.label69.TabIndex = 3;
+            this.label69.Text = "启停寄存器";
+            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label71
+            // 
+            this.label71.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.label71.Location = new System.Drawing.Point(49, 62);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(65, 52);
+            this.label71.TabIndex = 3;
+            this.label71.Text = "IP地址";
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label72
+            // 
+            this.label72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label72.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label72.Font = new System.Drawing.Font("微软雅黑", 13.8F);
+            this.label72.Location = new System.Drawing.Point(0, 0);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(617, 50);
+            this.label72.TabIndex = 0;
+            this.label72.Text = "Modbus传送带配置";
+            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // button54
+            // 
+            this.button54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button54.DefaultBack = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            this.button54.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(91)))), ((int)(((byte)(207)))));
+            this.button54.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.button54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button54.Location = new System.Drawing.Point(578, 664);
+            this.button54.Name = "button54";
+            this.button54.Size = new System.Drawing.Size(180, 58);
+            this.button54.TabIndex = 1;
+            this.button54.Text = "保存参数";
+            this.button54.ToggleBack = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            // 
+            // button53
+            // 
+            this.button53.BorderWidth = 1F;
+            this.button53.DefaultBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(119)))), ((int)(((byte)(255)))));
+            this.button53.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
+            this.button53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            this.button53.Location = new System.Drawing.Point(778, 662);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(184, 58);
+            this.button53.TabIndex = 1;
+            this.button53.Text = "加载参数";
+            // 
+            // label85
+            // 
+            this.label85.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label85.Location = new System.Drawing.Point(209, 294);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(79, 64);
+            this.label85.TabIndex = 1;
+            this.label85.Text = "目标Y";
+            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // select18
+            // 
+            this.select18.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.select18.IconRatio = 0.9F;
+            this.select18.Location = new System.Drawing.Point(294, 294);
+            this.select18.Name = "select18";
+            this.select18.Size = new System.Drawing.Size(87, 64);
+            this.select18.TabIndex = 2;
+            // 
+            // label86
+            // 
+            this.label86.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label86.Location = new System.Drawing.Point(387, 294);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(79, 64);
+            this.label86.TabIndex = 1;
+            this.label86.Text = "目标Z";
+            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // select19
+            // 
+            this.select19.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.select19.IconRatio = 0.9F;
+            this.select19.Location = new System.Drawing.Point(472, 294);
+            this.select19.Name = "select19";
+            this.select19.Size = new System.Drawing.Size(87, 64);
+            this.select19.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -2415,10 +2439,10 @@
             this.panel15.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
-            this.panel17.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
+            this.panel19.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2475,12 +2499,10 @@
         private AntdUI.Button button10;
         private AntdUI.Button button9;
         private AntdUI.Button button14;
-        private AntdUI.Button button15;
         private AntdUI.Select select3;
         private AntdUI.Button button18;
         private AntdUI.Button button19;
         private AntdUI.Button button17;
-        private AntdUI.Button button16;
         private AntdUI.Select select4;
         private AntdUI.Label label32;
         private AntdUI.Label label31;
@@ -2619,6 +2641,10 @@
         private AntdUI.Label label78;
         private AntdUI.Label label79;
         private System.Windows.Forms.Label label80;
+        private AntdUI.Select select19;
+        private AntdUI.Select select18;
+        private AntdUI.Label label86;
+        private AntdUI.Label label85;
     }
 }
 

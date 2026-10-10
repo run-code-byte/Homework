@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEAFB8C1-757C-48E1-AAA8-80FB511BD144}|WinFormsApp2\\WinFormsApp2.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\14day\\mytcpserver\\winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEAFB8C1-757C-48E1-AAA8-80FB511BD144}|WinFormsApp2\\WinFormsApp2.csproj|solutionrelative:winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\14day\\mytcpserver\\winformsapp2\\mytcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|solutionrelative:winformsapp2\\mytcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEAFB8C1-757C-48E1-AAA8-80FB511BD144}|WinFormsApp2\\WinFormsApp2.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\14day\\mytcpserver\\winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\14day\\mytcpserver\\winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|solutionrelative:winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\14day\\mytcpserver\\winformsapp2\\mytcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|solutionrelative:winformsapp2\\mytcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\14day\\mytcpserver\\winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|solutionrelative:winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|d:\\demo\\homework\\01 \u590D\u4E60\\02 winform\\14day\\mytcpserver\\winformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5D3017-9F03-EC78-92D1-31A48FEDCC15}|WinFormsApp2\\WinFormsApp2.csproj|solutionrelative:winformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAFB8C1-757C-48E1-AAA8-80FB511BD144}|WinFormsApp2\\WinFormsApp2.csproj|D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EEAFB8C1-757C-48E1-AAA8-80FB511BD144}|WinFormsApp2\\WinFormsApp2.csproj|solutionrelative:winformsapp2\\mytcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -23,27 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyTcpServer.cs",
-              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp2\\MyTcpServer.cs",
-              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs",
-              "RelativeToolTip": "WinFormsApp2\\MyTcpServer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBQAAAAzAAAAAAAAAA==",
+              "Title": "MyTcpClient.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpClient.cs",
+              "RelativeDocumentMoniker": "WinFormsApp2\\MyTcpClient.cs",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpClient.cs",
+              "RelativeToolTip": "WinFormsApp2\\MyTcpClient.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T09:41:16.062Z",
+              "WhenOpened": "2026-10-10T07:42:29.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MyTcpServer.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs",
               "RelativeDocumentMoniker": "WinFormsApp2\\MyTcpServer.cs",
               "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "WinFormsApp2\\MyTcpServer.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-08T09:17:00.546Z",
+              "WhenOpened": "2026-10-10T07:42:19.338Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyTcpServer.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp2\\MyTcpServer.cs",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs",
+              "RelativeToolTip": "WinFormsApp2\\MyTcpServer.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswHgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:41:16.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyTcpClient.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpClient.cs",
+              "RelativeDocumentMoniker": "WinFormsApp2\\MyTcpClient.cs",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpClient.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WinFormsApp2\\MyTcpClient.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T07:42:25.175Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp2\\Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\Program.cs",
+              "RelativeToolTip": "WinFormsApp2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T08:30:28.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyTcpServer.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp2\\MyTcpServer.cs",
+              "ToolTip": "D:\\demo\\Homework\\01 \u590D\u4E60\\02 Winform\\14day\\MyTCPServer\\WinFormsApp2\\MyTcpServer.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WinFormsApp2\\MyTcpServer.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T09:17:00.546Z"
             }
           ]
         }
