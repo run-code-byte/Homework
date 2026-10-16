@@ -35,10 +35,7 @@ namespace DobotArms
                     break;
                 }
 
-                // 同步阻塞代码,读取到了数据才会往下执行那个
-                // 获取到连接上服务端的客户端信息
-                string ClientIp = TCPClient.Client.RemoteEndPoint?.ToString();
-                Console.WriteLine($"有人连接: {ClientIp}");
+              
 
                 // 将字节数组 转为字符串
                 string ReviceData = System.Text.Encoding.UTF8.GetString(Buffer, 0, Len);
@@ -54,14 +51,6 @@ namespace DobotArms
                     }
                 }
                 
-
-
-                //// 给客户端发数据 消息
-                //string sendStr = "OK";
-                //// 字符串转为 字节数组 方便 数据管道发送数据
-                //byte[] SendData = Encoding.UTF8.GetBytes(sendStr);
-                //Stream.Write(SendData, 0, SendData.Length);
-
             }
         }
 
@@ -85,6 +74,7 @@ namespace DobotArms
         }
         static private void PickAndPlace(Dictionary<string, float> Arms,NetworkStream Stream)
         {
+           
             // 取料位置 上方
             PTPCmd ptp1 = new PTPCmd();
             ptp1.ptpMode = 1;
@@ -144,6 +134,10 @@ namespace DobotArms
             DobotDll.SetQueuedCmdStopExec();
             Console.WriteLine("队列已清空并停止");
 
+            string sendStr = "movwEnd";
+            // 字符串转为 字节数组 方便 数据管道发送数据
+            byte[] SendData = Encoding.UTF8.GetBytes(sendStr);
+            Stream.Write(SendData, 0, SendData.Length);
         }
 
     }

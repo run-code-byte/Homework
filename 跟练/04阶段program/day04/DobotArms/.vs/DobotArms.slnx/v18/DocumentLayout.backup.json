@@ -3,14 +3,21 @@
   "WorkspaceRootPath": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\DobotArms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1BC3EA3F-3FD2-4D75-AC25-FA8609AFF939}|..\\InspectProject\\InspectProject.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\inspectproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1BC3EA3F-3FD2-4D75-AC25-FA8609AFF939}|..\\InspectProject\\InspectProject.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\inspectproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BC3EA3F-3FD2-4D75-AC25-FA8609AFF939}|..\\InspectProject\\InspectProject.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\inspectproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFE9E30B-585D-414E-AF10-B4E1852F6110}|DobotArms.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\dobotarms\\dobotdll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFE9E30B-585D-414E-AF10-B4E1852F6110}|DobotArms.csproj|solutionrelative:dobotdll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18C1CC77-C50A-477F-CD6B-4C9E8FE356AE}|DobotArms.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\dobotarms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C1CC77-C50A-477F-CD6B-4C9E8FE356AE}|DobotArms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18C1CC77-C50A-477F-CD6B-4C9E8FE356AE}|DobotArms.csproj|d:\\demo\\homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\dobotarms\\dobotdll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C1CC77-C50A-477F-CD6B-4C9E8FE356AE}|DobotArms.csproj|solutionrelative:dobotdll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,19 +32,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\InspectProject\\Program.cs",
+              "RelativeDocumentMoniker": "..\\InspectProject\\Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\InspectProject\\Program.cs",
+              "RelativeToolTip": "..\\InspectProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T07:18:21.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\DobotArms\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\DobotArms\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwDwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T11:29:48.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\InspectProject\\Form1.cs",
               "RelativeDocumentMoniker": "..\\InspectProject\\Form1.cs",
               "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\InspectProject\\Form1.cs",
               "RelativeToolTip": "..\\InspectProject\\Form1.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAwGQAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAmwJIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-10T14:37:55.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\InspectProject\\Form1.cs",
               "RelativeDocumentMoniker": "..\\InspectProject\\Form1.cs",
@@ -49,16 +81,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DobotDll.cs",
               "DocumentMoniker": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\DobotArms\\DobotDll.cs",
               "RelativeDocumentMoniker": "DobotDll.cs",
               "ToolTip": "D:\\demo\\Homework\\\u8DDF\u7EC3\\04\u9636\u6BB5program\\day04\\DobotArms\\DobotDll.cs",
               "RelativeToolTip": "DobotDll.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA6wBUAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwBUAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T12:41:11.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-10T12:41:11.933Z"
             }
           ]
         }

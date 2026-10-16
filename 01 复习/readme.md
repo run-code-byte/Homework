@@ -98,9 +98,25 @@ day10  相机连接、标定板标定
 
 day11 相机连接、标定板标定、机械臂运动、九点标定
 
-day12  winform中的相机、相机拍照识别硬币集成winform、在winform中集成visionPro控件、相机控件和visionPro中的相机工具联动
 
-day13  相机的触发方式、相机联动案例、CogRecordDisplay
+
+## 04program
+
+day01 winform中的相机、相机拍照识别硬币集成winform、在winform中集成visionPro控件、相机控件和visionPro中的相机工具联动
+
+day02  相机的触发方式、相机联动案例、CogRecordDisplay
+
+day03 CogRecordDisplay 方案可视化 保存方案 方案的连续运行 PMA二次开发 机械臂运动补充 
+
+day04 视觉引导机械臂上下料项目
+
+
+
+
+
+
+
+
 
 
 

@@ -151,3 +151,7 @@ D:\demo\Homework\跟练\04阶段program\day04\InspectProject\obj\Debug\InspectPr
 D:\demo\Homework\跟练\04阶段program\day04\InspectProject\obj\Debug\InspectP.C5E9E84F.Up2Date
 D:\demo\Homework\跟练\04阶段program\day04\InspectProject\obj\Debug\InspectProject.exe
 D:\demo\Homework\跟练\04阶段program\day04\InspectProject\obj\Debug\InspectProject.pdb
+D:\demo\Homework\跟练\04阶段program\day04\InspectProject\bin\Debug\NModbus4.dll
+D:\demo\Homework\跟练\04阶段program\day04\InspectProject\bin\Debug\System.IO.Ports.dll
+D:\demo\Homework\跟练\04阶段program\day04\InspectProject\bin\Debug\NModbus4.xml
+D:\demo\Homework\跟练\04阶段program\day04\InspectProject\bin\Debug\System.IO.Ports.xml

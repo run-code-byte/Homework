@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="../InspectProject/InspectProject.csproj" />
+  <Project Path="../InspectProject/InspectProject.csproj" Id="1bc3ea3f-3fd2-4d75-ac25-fa8609aff939" />
   <Project Path="DobotArms.csproj" />
 </Solution>

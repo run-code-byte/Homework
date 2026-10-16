@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DobotArms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ce33537d23458dbb9230c906d2c8a784a7db5a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59a48570a4ddf0aed710fedd52af09dae9776792")]
 [assembly: System.Reflection.AssemblyProductAttribute("DobotArms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DobotArms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -72,7 +72,6 @@
             this.button1 = new AntdUI.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cogDisplay1 = new Cognex.VisionPro.Display.CogDisplay();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -95,6 +94,8 @@
             this.button21 = new AntdUI.Button();
             this.button17 = new AntdUI.Button();
             this.select4 = new AntdUI.Select();
+            this.select19 = new AntdUI.Select();
+            this.select18 = new AntdUI.Select();
             this.select3 = new AntdUI.Select();
             this.label39 = new AntdUI.Label();
             this.label35 = new AntdUI.Label();
@@ -105,6 +106,8 @@
             this.label36 = new AntdUI.Label();
             this.label31 = new AntdUI.Label();
             this.label30 = new AntdUI.Label();
+            this.label86 = new AntdUI.Label();
+            this.label85 = new AntdUI.Label();
             this.label43 = new AntdUI.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -222,17 +225,13 @@
             this.label72 = new System.Windows.Forms.Label();
             this.button54 = new AntdUI.Button();
             this.button53 = new AntdUI.Button();
-            this.label85 = new AntdUI.Label();
-            this.select18 = new AntdUI.Select();
-            this.label86 = new AntdUI.Label();
-            this.select19 = new AntdUI.Select();
+            this.cogRecordDisplay1 = new Cognex.VisionPro.CogRecordDisplay();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cogDisplay1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -254,6 +253,7 @@
             this.panel20.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cogRecordDisplay1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -566,7 +566,7 @@
             // select1
             // 
             this.select1.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select1.Location = new System.Drawing.Point(147, 117);
+            this.select1.Location = new System.Drawing.Point(154, 117);
             this.select1.Name = "select1";
             this.select1.Size = new System.Drawing.Size(390, 67);
             this.select1.TabIndex = 4;
@@ -687,6 +687,7 @@
             this.button2.Size = new System.Drawing.Size(126, 58);
             this.button2.TabIndex = 1;
             this.button2.Text = "停止检测";
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -701,6 +702,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "开始检测";
             this.button1.ToggleBack = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -717,29 +719,12 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.cogDisplay1);
+            this.panel1.Controls.Add(this.cogRecordDisplay1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(6, 6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(935, 625);
             this.panel1.TabIndex = 0;
-            // 
-            // cogDisplay1
-            // 
-            this.cogDisplay1.ColorMapLowerClipColor = System.Drawing.Color.Black;
-            this.cogDisplay1.ColorMapLowerRoiLimit = 0D;
-            this.cogDisplay1.ColorMapPredefined = Cognex.VisionPro.Display.CogDisplayColorMapPredefinedConstants.None;
-            this.cogDisplay1.ColorMapUpperClipColor = System.Drawing.Color.Black;
-            this.cogDisplay1.ColorMapUpperRoiLimit = 1D;
-            this.cogDisplay1.DoubleTapZoomCycleLength = 2;
-            this.cogDisplay1.DoubleTapZoomSensitivity = 2.5D;
-            this.cogDisplay1.Location = new System.Drawing.Point(-4, 54);
-            this.cogDisplay1.MouseWheelMode = Cognex.VisionPro.Display.CogDisplayMouseWheelModeConstants.Zoom1;
-            this.cogDisplay1.MouseWheelSensitivity = 1D;
-            this.cogDisplay1.Name = "cogDisplay1";
-            this.cogDisplay1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("cogDisplay1.OcxState")));
-            this.cogDisplay1.Size = new System.Drawing.Size(934, 566);
-            this.cogDisplay1.TabIndex = 1;
             // 
             // label1
             // 
@@ -982,6 +967,24 @@
             this.select4.TabIndex = 2;
             this.select4.Text = "吸盘吸";
             // 
+            // select19
+            // 
+            this.select19.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.select19.IconRatio = 0.9F;
+            this.select19.Location = new System.Drawing.Point(472, 294);
+            this.select19.Name = "select19";
+            this.select19.Size = new System.Drawing.Size(87, 64);
+            this.select19.TabIndex = 2;
+            // 
+            // select18
+            // 
+            this.select18.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
+            this.select18.IconRatio = 0.9F;
+            this.select18.Location = new System.Drawing.Point(294, 294);
+            this.select18.Name = "select18";
+            this.select18.Size = new System.Drawing.Size(87, 64);
+            this.select18.TabIndex = 2;
+            // 
             // select3
             // 
             this.select3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
@@ -1076,6 +1079,26 @@
             this.label30.TabIndex = 1;
             this.label30.Text = "执行器";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label86
+            // 
+            this.label86.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label86.Location = new System.Drawing.Point(387, 294);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(79, 64);
+            this.label86.TabIndex = 1;
+            this.label86.Text = "目标Z";
+            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label85
+            // 
+            this.label85.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label85.Location = new System.Drawing.Point(209, 294);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(79, 64);
+            this.label85.TabIndex = 1;
+            this.label85.Text = "目标Y";
+            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label43
             // 
@@ -1331,6 +1354,7 @@
             this.button44.Size = new System.Drawing.Size(190, 58);
             this.button44.TabIndex = 1;
             this.button44.Text = "加载VPP方案";
+            this.button44.Click += new System.EventHandler(this.button44_Click);
             // 
             // button45
             // 
@@ -1345,6 +1369,7 @@
             this.button45.TabIndex = 1;
             this.button45.Text = "保存方案";
             this.button45.ToggleBack = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
             // label51
             // 
@@ -1709,6 +1734,7 @@
             this.button35.Size = new System.Drawing.Size(126, 58);
             this.button35.TabIndex = 1;
             this.button35.Text = "实时预览";
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // button37
             // 
@@ -1721,6 +1747,7 @@
             this.button37.Size = new System.Drawing.Size(126, 58);
             this.button37.TabIndex = 1;
             this.button37.Text = "断开相机";
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // button38
             // 
@@ -1735,6 +1762,7 @@
             this.button38.TabIndex = 1;
             this.button38.Text = "连接相机";
             this.button38.ToggleBack = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
             // label47
             // 
@@ -2194,7 +2222,7 @@
             // 
             // input6
             // 
-            this.input6.Location = new System.Drawing.Point(125, 62);
+            this.input6.Location = new System.Drawing.Point(161, 62);
             this.input6.Name = "input6";
             this.input6.PlaceholderText = "端口";
             this.input6.Size = new System.Drawing.Size(442, 52);
@@ -2203,7 +2231,7 @@
             // select14
             // 
             this.select14.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select14.Location = new System.Drawing.Point(125, 209);
+            this.select14.Location = new System.Drawing.Point(161, 209);
             this.select14.Name = "select14";
             this.select14.PlaceholderText = "端口";
             this.select14.Size = new System.Drawing.Size(442, 52);
@@ -2212,9 +2240,9 @@
             // label77
             // 
             this.label77.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label77.Location = new System.Drawing.Point(0, 209);
+            this.label77.Location = new System.Drawing.Point(3, 209);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(114, 52);
+            this.label77.Size = new System.Drawing.Size(152, 52);
             this.label77.TabIndex = 3;
             this.label77.Text = "拍照等待时间";
             this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2222,7 +2250,7 @@
             // select15
             // 
             this.select15.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select15.Location = new System.Drawing.Point(125, 130);
+            this.select15.Location = new System.Drawing.Point(161, 130);
             this.select15.Name = "select15";
             this.select15.PlaceholderText = "端口";
             this.select15.Size = new System.Drawing.Size(442, 52);
@@ -2233,7 +2261,7 @@
             this.label78.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
             this.label78.Location = new System.Drawing.Point(3, 130);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(111, 52);
+            this.label78.Size = new System.Drawing.Size(152, 52);
             this.label78.TabIndex = 3;
             this.label78.Text = "光电触发后停";
             this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2243,7 +2271,7 @@
             this.label79.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
             this.label79.Location = new System.Drawing.Point(3, 62);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(111, 52);
+            this.label79.Size = new System.Drawing.Size(152, 52);
             this.label79.TabIndex = 3;
             this.label79.Text = "匹配分数阈值";
             this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2277,7 +2305,7 @@
             // 
             // input4
             // 
-            this.input4.Location = new System.Drawing.Point(125, 62);
+            this.input4.Location = new System.Drawing.Point(161, 62);
             this.input4.Name = "input4";
             this.input4.PlaceholderText = "端口";
             this.input4.Size = new System.Drawing.Size(442, 52);
@@ -2286,7 +2314,7 @@
             // select9
             // 
             this.select9.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select9.Location = new System.Drawing.Point(125, 209);
+            this.select9.Location = new System.Drawing.Point(161, 209);
             this.select9.Name = "select9";
             this.select9.PlaceholderText = "端口";
             this.select9.Size = new System.Drawing.Size(442, 52);
@@ -2295,9 +2323,9 @@
             // label70
             // 
             this.label70.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label70.Location = new System.Drawing.Point(20, 209);
+            this.label70.Location = new System.Drawing.Point(3, 209);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(94, 52);
+            this.label70.Size = new System.Drawing.Size(152, 52);
             this.label70.TabIndex = 3;
             this.label70.Text = "速度寄存器";
             this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2305,7 +2333,7 @@
             // select12
             // 
             this.select12.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.select12.Location = new System.Drawing.Point(125, 130);
+            this.select12.Location = new System.Drawing.Point(161, 130);
             this.select12.Name = "select12";
             this.select12.PlaceholderText = "端口";
             this.select12.Size = new System.Drawing.Size(442, 52);
@@ -2314,9 +2342,9 @@
             // label69
             // 
             this.label69.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label69.Location = new System.Drawing.Point(20, 130);
+            this.label69.Location = new System.Drawing.Point(3, 130);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(94, 52);
+            this.label69.Size = new System.Drawing.Size(152, 52);
             this.label69.TabIndex = 3;
             this.label69.Text = "启停寄存器";
             this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2324,9 +2352,9 @@
             // label71
             // 
             this.label71.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold);
-            this.label71.Location = new System.Drawing.Point(49, 62);
+            this.label71.Location = new System.Drawing.Point(32, 62);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(65, 52);
+            this.label71.Size = new System.Drawing.Size(123, 52);
             this.label71.TabIndex = 3;
             this.label71.Text = "IP地址";
             this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2369,43 +2397,22 @@
             this.button53.TabIndex = 1;
             this.button53.Text = "加载参数";
             // 
-            // label85
+            // cogRecordDisplay1
             // 
-            this.label85.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label85.Location = new System.Drawing.Point(209, 294);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(79, 64);
-            this.label85.TabIndex = 1;
-            this.label85.Text = "目标Y";
-            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // select18
-            // 
-            this.select18.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
-            this.select18.IconRatio = 0.9F;
-            this.select18.Location = new System.Drawing.Point(294, 294);
-            this.select18.Name = "select18";
-            this.select18.Size = new System.Drawing.Size(87, 64);
-            this.select18.TabIndex = 2;
-            // 
-            // label86
-            // 
-            this.label86.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label86.Location = new System.Drawing.Point(387, 294);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(79, 64);
-            this.label86.TabIndex = 1;
-            this.label86.Text = "目标Z";
-            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // select19
-            // 
-            this.select19.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
-            this.select19.IconRatio = 0.9F;
-            this.select19.Location = new System.Drawing.Point(472, 294);
-            this.select19.Name = "select19";
-            this.select19.Size = new System.Drawing.Size(87, 64);
-            this.select19.TabIndex = 2;
+            this.cogRecordDisplay1.ColorMapLowerClipColor = System.Drawing.Color.Black;
+            this.cogRecordDisplay1.ColorMapLowerRoiLimit = 0D;
+            this.cogRecordDisplay1.ColorMapPredefined = Cognex.VisionPro.Display.CogDisplayColorMapPredefinedConstants.None;
+            this.cogRecordDisplay1.ColorMapUpperClipColor = System.Drawing.Color.Black;
+            this.cogRecordDisplay1.ColorMapUpperRoiLimit = 1D;
+            this.cogRecordDisplay1.DoubleTapZoomCycleLength = 2;
+            this.cogRecordDisplay1.DoubleTapZoomSensitivity = 2.5D;
+            this.cogRecordDisplay1.Location = new System.Drawing.Point(1, 54);
+            this.cogRecordDisplay1.MouseWheelMode = Cognex.VisionPro.Display.CogDisplayMouseWheelModeConstants.Zoom1;
+            this.cogRecordDisplay1.MouseWheelSensitivity = 1D;
+            this.cogRecordDisplay1.Name = "cogRecordDisplay1";
+            this.cogRecordDisplay1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("cogRecordDisplay1.OcxState")));
+            this.cogRecordDisplay1.Size = new System.Drawing.Size(929, 566);
+            this.cogRecordDisplay1.TabIndex = 2;
             // 
             // Form1
             // 
@@ -2421,7 +2428,6 @@
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.cogDisplay1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
@@ -2443,6 +2449,7 @@
             this.panel20.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cogRecordDisplay1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2461,7 +2468,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private Cognex.VisionPro.Display.CogDisplay cogDisplay1;
         private AntdUI.Label label12;
         private AntdUI.Label label11;
         private AntdUI.Label label10;
@@ -2645,6 +2651,7 @@
         private AntdUI.Select select18;
         private AntdUI.Label label86;
         private AntdUI.Label label85;
+        private Cognex.VisionPro.CogRecordDisplay cogRecordDisplay1;
     }
 }
 

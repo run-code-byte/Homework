@@ -9,9 +9,9 @@ namespace ConsoleApp2
         {
             string parentDir = "";
             // 父目录路径，改成你自己的
-            for (int i = 10; i <= 13; i++)
+            for (int i = 3; i <= 4; i++)
             {
-                parentDir = @"D:\Desktop\老师发\正课\03阶段VisonPro\day" + i + @"\03-视频";
+                parentDir = @"D:\桌面\老师发\正课\04阶段联合编程\day0" + i + @"\03-视频";
                 //=====第一步：把子文件夹(上午、下午)里面的文件全部移动到父目录，然后删除子文件夹=====
                 //string[] subDirs = Directory.GetDirectories(parentDir);
                 //foreach (string subFolder in subDirs)

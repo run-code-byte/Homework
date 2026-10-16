@@ -1,0 +1,15 @@
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\demo\Homework\跟练\05阶段WPF\day01\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

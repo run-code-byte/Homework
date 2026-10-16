@@ -1,12 +1,14 @@
 ﻿using Cognex.VisionPro;
 using Cognex.VisionPro.FGGigE;
 using Cognex.VisionPro.ToolBlock;
+using Modbus.Device;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO.Ports;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -33,7 +35,7 @@ namespace InspectProject
         private NetworkStream Stream; // TCP 数据流(与机械臂通信)
         private ICogAcqFifo Acq { get; set; }       // 相机采集 FIFO
         private CogToolBlock CTB { get; set; }      // 视觉检测方案(ToolBlock)
-        //private IModbusMaster master;               // Modbus 主站(控制传送带)
+        private IModbusMaster master;               // Modbus 主站(控制传送带)
         private ushort IsGo = 0;                    // 传送带开关状态 0停 1启
         private void button1_Click(object sender, EventArgs e)
         {
@@ -67,7 +69,9 @@ namespace InspectProject
                 string ReviceData = System.Text.Encoding.UTF8.GetString(Buffer, 0, Len);
                 Console.WriteLine(ReviceData);
                 if (ReviceData=="connected") Console.WriteLine("机械臂连接成功");
-                
+
+                if (ReviceData=="moveEnd") master.WriteSingleRegisterAsync(2, 100, (ushort)1);
+
             }
         }
 
@@ -99,19 +103,46 @@ namespace InspectProject
             Acq.OwnedGigEVisionTransportParams.LatencyLevel = 1;
             Acq.OwnedTriggerParams.TriggerEnabled = true;
             Acq.OwnedTriggerParams.TriggerModel = CogAcqTriggerModelConstants.Auto;
-            Acq.Complete += Acq_Complete;
+            
             Console.WriteLine("相机加载成功");
 
         }
 
         private void Acq_Complete(object sender, CogCompleteEventArgs e)
         {
+            master.WriteSingleRegisterAsync(2, 100, 0);
             Acq.GetFifoState(out int _, out int Num, out bool _);
             if (Num > 0)
             {
                 ICogImage Img = Acq.CompleteAcquireEx(new CogAcqInfo());
-                cogRecordDisplay1.Image = Img;
                 Console.WriteLine("采集图像成功");
+                cogRecordDisplay1.Image = Img;
+                CTB.Inputs["InputImage"].Value = Img;
+
+                CTB.Run();
+                int Count = (int)CTB.Outputs["Count"].Value;
+                Console.WriteLine("检测苹结果数："+ Count);
+                if (Count > 0)
+                {
+                    Dictionary<string, float>  Arms = new Dictionary<string, float>()
+                    {
+                        ["x"] = (float)CTB.Outputs["X"].Value,
+                        ["y"] = (float)CTB.Outputs["Y"].Value,
+                    };
+                    Console.WriteLine("检测的瓶盖坐标---");
+                    Console.WriteLine(Arms["x"]);
+                    Console.WriteLine(Arms["y"]);
+                    Console.WriteLine("检测的瓶盖坐标---");
+                    string sendData = JsonConvert.SerializeObject(Arms);
+
+                    byte[] SendBytes = System.Text.Encoding.UTF8.GetBytes(sendData);
+                    // 发送数据
+                    Stream.Write(SendBytes, 0, SendBytes.Length);
+                }
+                else
+                {
+                    master.WriteSingleRegisterAsync(2, 100, (ushort)1);
+                }
             }
             else
             {
@@ -123,6 +154,28 @@ namespace InspectProject
         {
             CTB = CogSerializer.LoadObjectFromFile("./vpps/瓶盖检测.vpp") as CogToolBlock;
             Console.WriteLine("检测方案加载成功");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Acq.Complete += Acq_Complete;
+            master.WriteSingleRegisterAsync(2, 100, (ushort)1);
+            Console.WriteLine("开始检测-采集图像");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var s = new SerialPort("COM5", 9600, Parity.None, 8, StopBits.One);
+            s.Open();
+            master = ModbusSerialMaster.CreateRtu(s); // 创建RTU主站
+            Console.WriteLine("连接传送带成功");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            IsGo = IsGo == 1 ? (ushort)0 : (ushort)1;
+            //master.WriteSingleRegisterAsync(2, 102, (ushort)500); // 传送带速度
+            master.WriteSingleRegisterAsync(2, 100, IsGo);
         }
     }
 }
