@@ -1,0 +1,10 @@
+﻿<Application x:Class="WpfApp1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp1"
+             StartupUri="ToDoList.xaml">
+    <Application.Resources>
+         <!--全局加载资源：每个窗体中都可以使用-->
+        <ResourceDictionary Source="/DictionaryBtn.xaml"></ResourceDictionary>
+    </Application.Resources>
+</Application>

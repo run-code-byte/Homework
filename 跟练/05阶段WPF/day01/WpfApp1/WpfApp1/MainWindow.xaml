@@ -80,9 +80,108 @@
         </StackPanel>
     </Border>-->
 
-    <Border BorderThickness="10" BorderBrush="Cyan" Background="Gold" CornerRadius="100" Width="400" Height="200">
-        <Button>按钮2</Button>
-    </Border>
+    <!--圆角按钮-->
+    <!--<Border BorderThickness="10" BorderBrush="Cyan" Background="Gold" CornerRadius="100" Width="400" Height="200">
+        <Button Opacity="0" Click="Button_Click">按钮2</Button>
+    </Border>-->
+    
+    <!--换行面板-->
+    <!--<WrapPanel Orientation="Horizontal" ItemHeight="40">
+        <Button Width="100" Height="60" Margin="10">按钮1</Button>
+        <Button Width="100" Height="60" Margin="10">按钮2</Button>
+        <Button Width="100" Height="60" Margin="10">按钮3</Button>
+        <Button Width="100" Height="60" Margin="10">按钮4</Button>
+        <Button Width="100" Height="60" Margin="10">按钮5</Button>
+        <Button Width="100" Height="60" Margin="10">按钮6</Button>
+    </WrapPanel>-->
+    
+    <!--停靠面板-->
+    <!--<DockPanel LastChildFill="False">
+        <Button DockPanel.Dock="Top" Height="90">顶部</Button>
+        <Button DockPanel.Dock="Bottom" Height="80">底部</Button>
+        <Button DockPanel.Dock="Left" Width="100">左侧</Button>
+        <Button DockPanel.Dock="Right" Width="100">右侧</Button>
+        <Button Width="80" Height="60" VerticalAlignment="Top" >中间</Button>
+    </DockPanel>-->
+
+    
+    <!--<UniformGrid Rows="2" Columns="2">
+        <Button Width="100" Height="60" >按钮1</Button>
+        <Button Width="100" Height="60" >按钮2</Button>
+        <Button Width="100" Height="60" >按钮3</Button>
+        <Button Width="100" Height="60" >按钮4</Button>
+        <Button Width="100" Height="60" >按钮5</Button>
+        <Button Width="100" Height="60" >按钮6</Button>
+        <Button Width="100" Height="60" >按钮7</Button>
+    </UniformGrid>-->
+
+    <!--<Canvas>
+        <Button Width="100" Height="60" >按钮1</Button>
+        <Button Width="100" Height="60" Panel.ZIndex="2" >按钮2</Button>
+        <Button Width="100" Height="60" Canvas.Left="90" Canvas.Top="50" Panel.ZIndex="1">按钮3</Button>
+        <Button Width="100" Height="60" >按钮4</Button>
+        <Button Width="100" Height="60" >按钮5</Button>
+        <Button Width="100" Height="60" >按钮6</Button>
+        <Button Width="100" Height="60" >按钮7</Button>
+    </Canvas>-->
+
+    <!--<Button IsDefault="True" Click="Button_Click" Width="100" Height="60">按钮</Button>-->
+
+    <!--<Canvas>
+
+        <Button IsCancel="True" Click="Button_Click" Width="100" Height="60" Canvas.Top="0" Canvas.Right="0">关闭</Button>
+        <Button Width="100" Foreground="Red" FontStyle="Italic" FontFamily="楷体" Background="YellowGreen" FontSize="30" Height="50" FontWeight="Bold" Panel.ZIndex="1" Canvas.Right="120" Canvas.Bottom="150">按钮4</Button>
+        <Button>
+            <CheckBox>爱好</CheckBox>
+        </Button>
+    </Canvas>-->
+
+    <!--<WrapPanel Orientation="Vertical">
+        <CheckBox Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked">蓝球</CheckBox>
+        <CheckBox>唱歌</CheckBox>
+        <CheckBox>跳舞</CheckBox>
+    </WrapPanel>-->
+
+    <!--<WrapPanel Orientation="Vertical">
+        <Button>性别；</Button>
+        <RadioButton GroupName="gender">男</RadioButton>
+        <RadioButton GroupName="gender">女</RadioButton>
+        <Button>班级：</Button>
+        <RadioButton GroupName="class">01班</RadioButton>
+        <RadioButton GroupName="class">02班</RadioButton>
+        <RadioButton GroupName="class">03班</RadioButton>
+    </WrapPanel>-->
+
+    <!--<WrapPanel>
+        --><!--<Label>标签</Label>
+        <Label>
+            <CheckBox>爱好</CheckBox>
+        </Label>--><!--
+        <Label Target="{Binding ElementName=Tname}">_姓名</Label>
+        <TextBox Name="Tname" Width="100" Height="30"></TextBox>
+
+        <Label Target="{Binding ElementName=Tage}">_年龄</Label>
+        <TextBox Name="Tage" Width="100" Height="30"></TextBox>
+    </WrapPanel>-->
+
+    <WrapPanel Orientation="Vertical">
+        <TextBlock>文字</TextBlock>
+        <TextBlock FontWeight="Bold">文字</TextBlock>
+        <TextBlock FontWeight="Bold" FontSize="30">文字</TextBlock>
+        <TextBlock FontWeight="Bold" FontSize="30" FontStyle="Italic">文字</TextBlock>
+        <TextBlock FontWeight="Bold" FontSize="30"  FontFamily="宋体">文字</TextBlock>
+        <TextBlock FontWeight="Bold" FontSize="30"  FontFamily="宋体" Text="我才是文本"></TextBlock>
+        <TextBlock FontWeight="Bold" FontSize="30"  FontFamily="宋体" Text="我才是文本" TextDecorations="Strikethrough"></TextBlock>
+        <!--<TextBlock FontSize="20" Foreground="Blue" Background="Pink">文字</TextBlock>-->
+        <!--<TextBlock LineHeight="60" Padding="20" FontSize="20" Foreground="Blue" Background="Pink">文字</TextBlock>-->
+        <TextBlock LineHeight="60" TextAlignment="Center"  FontSize="20" Foreground="Blue" Background="Pink">文字</TextBlock>
+        <TextBlock Background="Yellow" TextWrapping="WrapWithOverflow"  Width="80">
+            <Run>你好</Run>
+            <Run>疯狂星期四</Run>
+            <Run>黑色星期五</Run>
+        </TextBlock>
+    </WrapPanel>
+    
 </Window>
 <!--标记语言-->
 

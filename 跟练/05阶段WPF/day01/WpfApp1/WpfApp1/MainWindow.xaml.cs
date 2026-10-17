@@ -30,6 +30,15 @@ namespace WpfApp1
             MessageBox.Show("点击按钮了");
         }
 
-        
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("选中篮球");
+        }
+
+       
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("取消篮球");
+        }
     }
 }
