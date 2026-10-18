@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.ElementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="ElementWindow" Height="450" Width="800">
+
+    <UniformGrid>
+        <WrapPanel Margin="0,0,-112,-186" x:Name="myPan" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <Label x:Name="label" Width="120" Height="80" BorderThickness="2" BorderBrush="Orange" Margin="20">label1</Label>
+            <Label Width="120" Height="80" BorderThickness="2" BorderBrush="Orange" Margin="20">label2</Label>
+            <Label Width="120" Height="80" BorderThickness="2" BorderBrush="Orange" Margin="20">label3</Label>
+            <Label Width="120" Height="80" BorderThickness="2" BorderBrush="Orange" Margin="20">label4</Label>
+            <Label Width="120" Height="80" BorderThickness="2" BorderBrush="Orange" Margin="20">label5</Label>
+            <Label Width="120" Height="80" BorderThickness="2" BorderBrush="Orange" Margin="20">label6</Label>
+            <StackPanel>
+                <Button Width="100" Height="50" Click="AddLabel">按钮666</Button>
+            </StackPanel>
+        </WrapPanel>
+        <Button Click="Button_Click" Width="100" Height="80">点击获取</Button>
+    </UniformGrid>
+    
+    
+</Window>

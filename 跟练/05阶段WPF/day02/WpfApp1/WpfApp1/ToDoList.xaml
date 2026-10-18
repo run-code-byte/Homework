@@ -12,7 +12,7 @@
                 <DataTemplate>
                     <DockPanel Width="280" Height="30">
                         <TextBlock Text="{Binding todoId}" DockPanel.Dock="Left"></TextBlock>
-                        <Button DockPanel.Dock="Right">删除</Button>
+                        <Button DockPanel.Dock="Right" Click="Del" Tag="{Binding todoId}">删除</Button>
                         <TextBlock Text="{Binding todoName}" ></TextBlock>
                     </DockPanel>
                 </DataTemplate>

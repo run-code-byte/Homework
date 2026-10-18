@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="WpfApp1.MyControl.AddorEdit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1.MyControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" AutomationProperties.HelpText="6666888">
+    <Grid AutomationProperties.HelpText="666888">
+        <Label  Content="书名：" HorizontalAlignment="Left" Height="31" Margin="219,65,0,0" VerticalAlignment="Top" Width="58"/>
+        <TextBox x:Name="BN" HorizontalAlignment="Left" Height="37" Margin="282,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="198"/>
+        <Label Content="作者：" HorizontalAlignment="Left" Height="31" Margin="219,116,0,0" VerticalAlignment="Top" Width="58"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="282,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="198"/>
+        <Button Click="Button_Click" Content="{Binding textstring}" HorizontalAlignment="Left" Height="40" Margin="282,185,0,0" VerticalAlignment="Top" Width="118"/>
+
+    </Grid>
+</UserControl>

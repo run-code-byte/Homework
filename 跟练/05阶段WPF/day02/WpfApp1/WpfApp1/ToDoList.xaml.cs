@@ -34,10 +34,23 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (CurrToDoName.Text.Trim() == "") return;
-            int CurrToDoId = ToDoLists[ToDoLists.Count - 1].todoId + 1;
+            int CurrToDoId;
+            //if (ToDoLists.Count == 0) CurrToDoId = 1;
+            //else CurrToDoId = ToDoLists[ToDoLists.Count - 1].todoId + 1;
+            CurrToDoId = ToDoLists.Count == 0 ? 1:ToDoLists[ToDoLists.Count - 1].todoId + 1;
+
             ToDoLists.Add(new ToDo(CurrToDoName.Text.Trim(), CurrToDoId));
             CurrToDoName.Text = "";
         }
+
+        private void Del(object sender, RoutedEventArgs e)
+        {
+            int Id = (int)(sender as Button).Tag;
+            int index = ToDoLists.ToList().FindIndex(item => item.todoId == Id);
+            ToDoLists.RemoveAt(index);
+        }
+
+       
     }
     public class ToDo
     {

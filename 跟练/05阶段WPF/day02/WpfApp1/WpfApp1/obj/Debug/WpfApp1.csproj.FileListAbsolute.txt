@@ -21,3 +21,5 @@ D:\demo\Homework\跟练\05阶段WPF\day02\WpfApp1\WpfApp1\obj\Debug\Window1.g.cs
 D:\demo\Homework\跟练\05阶段WPF\day02\WpfApp1\WpfApp1\obj\Debug\Window1.baml
 D:\demo\Homework\跟练\05阶段WPF\day02\WpfApp1\WpfApp1\obj\Debug\ToDoList.g.cs
 D:\demo\Homework\跟练\05阶段WPF\day02\WpfApp1\WpfApp1\obj\Debug\ToDoList.baml
+D:\demo\Homework\跟练\05阶段WPF\day02\WpfApp1\WpfApp1\obj\Debug\ElementWindow.g.cs
+D:\demo\Homework\跟练\05阶段WPF\day02\WpfApp1\WpfApp1\obj\Debug\ElementWindow.baml

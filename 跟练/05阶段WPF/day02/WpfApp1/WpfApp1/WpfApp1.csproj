@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ElementWindow.xaml.cs">
+      <DependentUpon>ElementWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PersonViewModel.cs" />
     <Compile Include="ToDoList.xaml.cs">
       <DependentUpon>ToDoList.xaml</DependentUpon>
@@ -66,6 +69,10 @@
       <DependentUpon>WindowResource.xaml</DependentUpon>
     </Compile>
     <Page Include="DictionaryBtn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ElementWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
