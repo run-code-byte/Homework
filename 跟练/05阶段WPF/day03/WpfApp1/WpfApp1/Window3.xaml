@@ -4,9 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
+        xmlns:cog="clr-namespace:Cognex.VisionPro;assembly=Cognex.VisionPro.Controls"
+        xmlns:anui="clr-namespace:AntdUI;assembly=AntdUI"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="800">
     <Grid>
-        
+        <!--<WindowsFormsHost x:Name="wf" HorizontalAlignment="Left" Height="93" Margin="10,10,0,0" VerticalAlignment="Top" Width="221">
+            <cog:CogRecordDisplay></cog:CogRecordDisplay>
+            <anui:Button Text="按钮" Width="100" Height="80" Type="Primary"></anui:Button>
+        </WindowsFormsHost>-->
     </Grid>
+    
 </Window>

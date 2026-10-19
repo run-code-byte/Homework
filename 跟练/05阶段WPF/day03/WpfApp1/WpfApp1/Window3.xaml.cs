@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Cognex.VisionPro.Blob;
+using Cognex.VisionPro.PMAlign;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +24,13 @@ namespace WpfApp1
         public Window3()
         {
             InitializeComponent();
+
+            // 手动创建visionPro的控件
+            CogPMAlignEditV2 PMA = new CogPMAlignEditV2()
+            {
+                Dock = System.Windows.Forms.DockStyle.Fill
+            };
+            //wf.Child = PMA;
         }
     }
 }
